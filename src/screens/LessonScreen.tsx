@@ -22,7 +22,7 @@ type Phase = 'loading' | 'empty' | 'play' | 'saving' | 'done' | 'no-hearts';
 export default function LessonScreen() {
   const { id = '' } = useParams();
   const navigate = useNavigate();
-  const { settings } = useSettings();
+  const { settings, update } = useSettings();
   const [phase, setPhase] = useState<Phase>('loading');
   const [q, setQ] = useState<QueueState | null>(null);
   const [kind, setKind] = useState<SessionKind>('lesson');
@@ -187,6 +187,18 @@ export default function LessonScreen() {
           <IconX />
         </button>
         <ProgressBar value={progress(q)} />
+        <button
+          type="button"
+          onClick={() => void update({ furigana: !settings.furigana })}
+          aria-pressed={settings.furigana}
+          aria-label="Show furigana (readings over kanji)"
+          title="Furigana"
+          className={`h-10 rounded-xl border-2 px-2 text-sm font-bold ${settings.furigana ? 'border-ai-400 text-ai-500' : 'border-washi-200 opacity-50 dark:border-sumi-700'}`}
+        >
+          <ruby lang="ja">
+            字<rt>じ</rt>
+          </ruby>
+        </button>
         {heartsOn && (
           <span className="flex items-center gap-1 font-bold text-rose-500" aria-label={`${hearts} hearts left`}>
             <span aria-hidden>❤</span>

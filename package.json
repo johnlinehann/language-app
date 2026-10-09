@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Kotoba — free, ad-free, offline-first Japanese learning PWA",
+  "description": "Kotoba \u2014 free, ad-free, offline-first Japanese learning PWA",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -13,7 +13,9 @@
     "test:watch": "vitest",
     "typecheck": "tsc -b",
     "content:build": "node scripts/build-content.mjs",
-    "content:validate": "node scripts/validate-content.mjs"
+    "content:validate": "node scripts/validate-content.mjs",
+    "content:strokes": "node scripts/fetch-strokes.mjs",
+    "content:kana": "node scripts/gen-kana.mjs"
   },
   "dependencies": {
     "dexie": "^4.0.8",
