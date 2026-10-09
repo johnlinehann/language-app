@@ -76,7 +76,7 @@ function units(script, name, code) {
     unit: `${code}b`,
     title: `${name} II`,
     level: 'Kana',
-    description: `The rest of ${name.toLowerCase()}, plus the voicing marks ゛ and ゜.`,
+    description: `The rest of ${name.toLowerCase()}, plus voiced sounds like ${script === 'h' ? 'が and ぱ' : 'ガ and パ'}.`,
     checkpoint: true,
     lessons: [
       ...chunk(second, SPLIT_II).map((items, i) => ({ lesson: `${code}b-l${i + 1}`, title: title(items), items })),

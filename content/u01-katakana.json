@@ -384,7 +384,7 @@
     "unit": "u01b",
     "title": "Katakana II",
     "level": "Kana",
-    "description": "The rest of katakana, plus the voicing marks ゛ and ゜.",
+    "description": "The rest of katakana, plus voiced sounds like ガ and パ.",
     "checkpoint": true,
     "lessons": [
       {

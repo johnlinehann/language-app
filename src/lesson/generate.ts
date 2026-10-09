@@ -26,11 +26,21 @@ const key = (it: Item, side: 'jp' | 'en') =>
 
 /** Pick up to n distractors that look different from the answer on the given side. */
 export function distractors(item: Item, pool: Item[], n: number, side: 'jp' | 'en', r: Rng): Item[] {
-  const sameFamily = (o: Item) =>
-    isKana(item) ? isKana(o) && script(o) === script(item) : !isKana(o) && (o.type === 'sentence') === (item.type === 'sentence');
+  // Prefer distractors of the same kind (kanji with kanji, hiragana with hiragana, sentences with sentences).
+  const tier = (o: Item) =>
+    isKana(o) !== isKana(item) ? 9
+    : isKana(item) ? (script(o) === script(item) ? 0 : 2)
+    : o.type === item.type ? 0
+    : (o.type === 'sentence') === (item.type === 'sentence') ? 1
+    : 2;
   const seen = new Set([key(item, side), key(item, side === 'jp' ? 'en' : 'jp')]);
   const out: Item[] = [];
-  const ranked = [...r.shuffle(pool.filter(sameFamily)), ...r.shuffle(pool.filter((o) => !sameFamily(o) && isKana(o) === isKana(item)))];
+  const ranked = r
+    .shuffle(pool)
+    .map((o) => ({ o, t: tier(o) }))
+    .filter((x) => x.t < 9)
+    .sort((a, b) => a.t - b.t)
+    .map((x) => x.o);
   for (const o of ranked) {
     if (out.length >= n) break;
     if (o.id === item.id) continue;
@@ -54,7 +64,7 @@ function enWords(s: string): string[] {
 export function kindsFor(item: Item): ExerciseKind[] {
   if (isKana(item)) return ['recognize', 'choice', 'listen-choice', 'type'];
   if (item.type === 'sentence') return ['wordbank', 'wordbank', 'listen-type', 'listen-choice'];
-  const kinds: ExerciseKind[] = ['choice', 'choice', 'listen-choice', 'type', 'listen-type'];
+  const kinds: ExerciseKind[] = ['choice', 'listen-choice', 'type', 'choice', 'listen-type'];
   if (item.type === 'kanji') kinds.splice(1, 0, 'recognize');
   if (hasTokens(item)) kinds.push('wordbank');
   return kinds;
@@ -166,7 +176,8 @@ export function generateLesson(items: Item[], opts: GenerateOptions = {}): Exerc
   for (let i = 0; gradedCount < target && focus.length; i++) {
     const it = focus[i % focus.length];
     const kinds = kindsFor(it);
-    const s = (step.get(it.id) ?? (opts.introduce === false ? r.int(kinds.length) : 1)) % kinds.length;
+    const first = opts.introduce === false ? r.int(kinds.length) : 1 + (i % (kinds.length - 1)); // vary kinds across items
+    const s = (step.get(it.id) ?? first) % kinds.length;
     step.set(it.id, s + 1);
     graded.push(makeExercise(kinds[s], it, pool, r, i + s));
     gradedCount++;

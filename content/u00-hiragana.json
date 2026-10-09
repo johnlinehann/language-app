@@ -384,7 +384,7 @@
     "unit": "u00b",
     "title": "Hiragana II",
     "level": "Kana",
-    "description": "The rest of hiragana, plus the voicing marks ゛ and ゜.",
+    "description": "The rest of hiragana, plus voiced sounds like が and ぱ.",
     "checkpoint": true,
     "lessons": [
       {
