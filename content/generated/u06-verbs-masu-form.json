@@ -490,6 +490,115 @@
           ]
         }
       ]
+    },
+    {
+      "lesson": "u06-l6",
+      "title": "More actions",
+      "items": [
+        {
+          "id": "g.hairimasu",
+          "jp": "入ります",
+          "kana": "はいります",
+          "romaji": "hairimasu",
+          "en": [
+            "enter",
+            "go in",
+            "come in"
+          ],
+          "audioText": "はいります",
+          "type": "word",
+          "emoji": "🚪",
+          "strokes": [
+            "入"
+          ],
+          "note": "Watch out: 入る (はいる) looks like a る-verb but is an う-verb → 入ります."
+        },
+        {
+          "id": "g.demasu",
+          "jp": "出ます",
+          "kana": "でます",
+          "romaji": "demasu",
+          "en": [
+            "leave",
+            "go out",
+            "exit"
+          ],
+          "audioText": "でます",
+          "type": "word",
+          "emoji": "🏃",
+          "strokes": [
+            "出"
+          ],
+          "note": "Dictionary form: 出る（でる）"
+        },
+        {
+          "id": "g.tsukaimasu",
+          "jp": "使います",
+          "kana": "つかいます",
+          "romaji": "tsukaimasu",
+          "en": [
+            "use"
+          ],
+          "audioText": "つかいます",
+          "type": "word",
+          "emoji": "🛠️",
+          "strokes": [
+            "使"
+          ],
+          "note": "Dictionary form: 使う（つかう）"
+        },
+        {
+          "id": "g.tsukurimasu",
+          "jp": "作ります",
+          "kana": "つくります",
+          "romaji": "tsukurimasu",
+          "en": [
+            "make",
+            "cook"
+          ],
+          "audioText": "つくります",
+          "type": "word",
+          "emoji": "🍳",
+          "strokes": [
+            "作"
+          ],
+          "note": "Dictionary form: 作る（つくる）"
+        },
+        {
+          "id": "g.arukimasu",
+          "jp": "歩きます",
+          "kana": "あるきます",
+          "romaji": "arukimasu",
+          "en": [
+            "walk"
+          ],
+          "audioText": "あるきます",
+          "type": "word",
+          "emoji": "🚶",
+          "strokes": [
+            "歩"
+          ],
+          "note": "Dictionary form: 歩く（あるく）"
+        },
+        {
+          "id": "g.yasumimasu",
+          "jp": "休みます",
+          "kana": "やすみます",
+          "romaji": "yasumimasu",
+          "en": [
+            "rest",
+            "take a break",
+            "take a day off"
+          ],
+          "audioText": "やすみます",
+          "type": "word",
+          "emoji": "🛋️",
+          "strokes": [
+            "休"
+          ],
+          "note": "Dictionary form: 休む（やすむ）"
+        }
+      ]
     }
   ]
 }

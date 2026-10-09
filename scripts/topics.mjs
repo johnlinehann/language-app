@@ -33,6 +33,12 @@ export const VERBS = [
   V('待つ', 'まつ', 'godan', 'wait', '⏳'),
   V('会う', 'あう', 'godan', 'meet', '🤝'),
   V('遊ぶ', 'あそぶ', 'godan', 'play;hang out', '🎮'),
+  V('入る', 'はいる', 'godan', 'enter;go in;come in', '🚪'),
+  V('出る', 'でる', 'ichidan', 'leave;go out;exit', '🏃'),
+  V('使う', 'つかう', 'godan', 'use', '🛠️'),
+  V('作る', 'つくる', 'godan', 'make;cook', '🍳'),
+  V('歩く', 'あるく', 'godan', 'walk', '🚶'),
+  V('休む', 'やすむ', 'godan', 'rest;take a break;take a day off', '🛋️'),
   { ...V('食べる', 'たべる', 'ichidan', 'eat', '🍽️'), masu: false },
   { ...V('飲む', 'のむ', 'godan', 'drink', '🥤'), masu: false },
 ];
@@ -50,6 +56,7 @@ export const TOPICS = [
       { title: 'People & pets', items: [W('男', 'おとこ', 'man;male', '👨'), W('女', 'おんな', 'woman;female', '👩'), W('人', 'ひと', 'person', '🧍'), W('赤ちゃん', 'あかちゃん', 'baby', '👶'), W('犬', 'いぬ', 'dog', '🐕'), W('猫', 'ねこ', 'cat', '🐈')] },
       { title: 'How many people?', items: [W('一人', 'ひとり', 'one person;alone'), W('二人', 'ふたり', 'two people'), W('三人', 'さんにん', 'three people'), W('何人', 'なんにん', 'how many people'), S('家族|かぞく は 四人|よにん です', 'my family has four people;there are four people in my family'), S('兄|あに が 二人|ふたり います', 'I have two older brothers')] },
       { title: 'This is my mother', items: [S('これ は 私|わたし の 母|はは です', 'this is my mother'), S('犬|いぬ が います', 'there is a dog;I have a dog'), S('猫|ねこ が 好き|すき です', 'I like cats'), S('友達|ともだち と 遊びます|あそびます', 'I hang out with friends;I play with my friend'), S('妹|いもうと は 学生|がくせい です', 'my younger sister is a student')] },
+      { title: 'Grandparents & ages', items: [W('祖父', 'そふ', 'my grandfather;grandfather', '👴'), W('祖母', 'そぼ', 'my grandmother;grandmother', '👵'), W('おじいさん', 'おじいさん', 'grandfather;old man'), W('おばあさん', 'おばあさん', 'grandmother;old woman'), W('何歳', 'なんさい', 'how old', '🎂'), S('何歳|なんさい です か', 'how old are you'), S('父|ちち は 四十|よんじゅう 歳|さい です', 'my father is forty;my father is forty years old')] },
     ],
   },
   {
@@ -63,6 +70,7 @@ export const TOPICS = [
       { title: 'Work & play', verbs: ['する', '勉強する', '働く', '待つ', '会う', '遊ぶ'] },
       { title: "Didn't, did, let's", items: [W('ません', 'ません', "don't (polite negative);do not"), W('ました', 'ました', 'did (polite past)'), W('ませんでした', 'ませんでした', "didn't (polite past negative);did not"), W('ましょう', 'ましょう', "let's"), S('ご飯|ごはん を 食べましょう|たべましょう', "let's eat"), S('テレビ を 見ません|みません', "I don't watch TV")] },
       { title: 'My day', items: [S('学校|がっこう に 行きます|いきます', 'I go to school'), S('本|ほん を 読みます|よみます', 'I read a book;I read books'), S('昨日|きのう 勉強しました|べんきょうしました', 'I studied yesterday'), S('毎朝|まいあさ 七時|しちじ に 起きます|おきます', 'I get up at seven every morning'), S('一緒|いっしょ に 行きません|いきません か', "won't you go together;shall we go together"), S('友達|ともだち に 会いました|あいました', 'I met a friend')] },
+      { title: 'More actions', verbs: ['入る', '出る', '使う', '作る', '歩く', '休む'], note: 'Watch out: 入る (はいる) looks like a る-verb but is an う-verb → 入ります.' },
     ],
   },
   {
@@ -75,6 +83,8 @@ export const TOPICS = [
       { title: 'に で へ', items: [P('に', 'ni', 'at (time);to (place)'), P('で', 'de', 'at (place of action);by (means)'), P('へ', 'e', 'toward;to', 'え'), S('七時|しちじ に 起きます|おきます', 'I get up at seven'), S('駅|えき で 待ちます|まちます', 'I wait at the station'), S('日本|にほん へ 行きます|いきます', 'I go to Japan'), S('バス で 行きます|いきます', 'I go by bus')] },
       { title: 'と も か', items: [P('と', 'to', 'and;with'), P('も', 'mo', 'also;too'), P('か', 'ka', 'question marker'), S('友達|ともだち と 行きます|いきます', 'I go with a friend'), S('私|わたし も 学生|がくせい です', 'I am a student too;I am also a student'), S('パン と 卵|たまご', 'bread and eggs')] },
       { title: 'から まで ね よ', items: [P('から', 'kara', 'from'), P('まで', 'made', 'until;to'), P('ね', 'ne', "isn't it;right"), P('よ', 'yo', 'you know (emphasis)'), S('九時|くじ から 五時|ごじ まで 働きます|はたらきます', 'I work from nine to five'), S('いい 天気|てんき です ね', "it's nice weather, isn't it;nice weather, isn't it"), S('おいしい です よ', "it's delicious, you know")] },
+      { title: 'Putting it together', items: [S('毎日|まいにち 電車|でんしゃ で 学校|がっこう に 行きます|いきます', 'I go to school by train every day'), S('母|はは と スーパー へ 行きました|いきました', 'I went to the supermarket with my mother'), S('猫|ねこ も 犬|いぬ も 好き|すき です', 'I like both cats and dogs;I like cats and dogs too'), S('図書館|としょかん で 本|ほん を 読みます|よみます', 'I read books at the library'), S('日曜日|にちようび に 友達|ともだち に 会います|あいます', 'I meet a friend on Sunday;I meet friends on Sunday'), S('これ は 誰|だれ の 傘|かさ です か', 'whose umbrella is this')] },
+      { title: 'や より だけ しか', items: [P('や', 'ya', 'and (among others);and so on'), P('より', 'yori', 'than'), P('だけ', 'dake', 'only;just'), P('しか', 'shika', 'only (with negative)'), S('パン や 卵|たまご を 買いました|かいました', 'I bought bread, eggs and so on;I bought things like bread and eggs'), S('水|みず だけ ください', 'just water, please;only water please'), S('百円|ひゃくえん しか ありません', 'I only have 100 yen;I only have one hundred yen')] },
     ],
   },
   {

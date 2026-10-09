@@ -475,6 +475,115 @@
           ]
         }
       ]
+    },
+    {
+      "lesson": "u05-l6",
+      "title": "Grandparents & ages",
+      "items": [
+        {
+          "id": "g.sofu",
+          "jp": "祖父",
+          "kana": "そふ",
+          "romaji": "sofu",
+          "en": [
+            "my grandfather",
+            "grandfather"
+          ],
+          "audioText": "そふ",
+          "type": "word",
+          "emoji": "👴",
+          "strokes": [
+            "祖"
+          ]
+        },
+        {
+          "id": "g.sobo",
+          "jp": "祖母",
+          "kana": "そぼ",
+          "romaji": "sobo",
+          "en": [
+            "my grandmother",
+            "grandmother"
+          ],
+          "audioText": "そぼ",
+          "type": "word",
+          "emoji": "👵"
+        },
+        {
+          "id": "g.ojiisan",
+          "jp": "おじいさん",
+          "kana": "おじいさん",
+          "romaji": "ojiisan",
+          "en": [
+            "grandfather",
+            "old man"
+          ],
+          "audioText": "おじいさん",
+          "type": "word"
+        },
+        {
+          "id": "g.obaasan",
+          "jp": "おばあさん",
+          "kana": "おばあさん",
+          "romaji": "obaasan",
+          "en": [
+            "grandmother",
+            "old woman"
+          ],
+          "audioText": "おばあさん",
+          "type": "word"
+        },
+        {
+          "id": "g.nansai",
+          "jp": "何歳",
+          "kana": "なんさい",
+          "romaji": "nansai",
+          "en": [
+            "how old"
+          ],
+          "audioText": "なんさい",
+          "type": "word",
+          "emoji": "🎂",
+          "strokes": [
+            "歳"
+          ]
+        },
+        {
+          "id": "gs.nansaidesuka",
+          "jp": "何歳ですか",
+          "kana": "なんさいですか",
+          "romaji": "nansai desu ka",
+          "en": [
+            "how old are you"
+          ],
+          "audioText": "何歳ですか",
+          "type": "sentence",
+          "tokens": [
+            "何歳|なんさい",
+            "です",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.chichiwayonjuusaidesu",
+          "jp": "父は四十歳です",
+          "kana": "ちちはよんじゅうさいです",
+          "romaji": "chichi wa yonjuu sai desu",
+          "en": [
+            "my father is forty",
+            "my father is forty years old"
+          ],
+          "audioText": "父は四十歳です",
+          "type": "sentence",
+          "tokens": [
+            "父|ちち",
+            "は",
+            "四十|よんじゅう",
+            "歳|さい",
+            "です"
+          ]
+        }
+      ]
     }
   ]
 }

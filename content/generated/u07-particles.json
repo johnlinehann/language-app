@@ -406,6 +406,235 @@
           ]
         }
       ]
+    },
+    {
+      "lesson": "u07-l5",
+      "title": "Putting it together",
+      "items": [
+        {
+          "id": "gs.mainichidenshadegakkouniikimasu",
+          "jp": "毎日電車で学校に行きます",
+          "kana": "まいにちでんしゃでがっこうにいきます",
+          "romaji": "mainichi densha de gakkou ni ikimasu",
+          "en": [
+            "I go to school by train every day"
+          ],
+          "audioText": "毎日電車で学校に行きます",
+          "type": "sentence",
+          "tokens": [
+            "毎日|まいにち",
+            "電車|でんしゃ",
+            "で",
+            "学校|がっこう",
+            "に",
+            "行きます|いきます"
+          ]
+        },
+        {
+          "id": "gs.hahatosuupaaeikimashita",
+          "jp": "母とスーパーへ行きました",
+          "kana": "ははとスーパーへいきました",
+          "romaji": "haha to suupaa e ikimashita",
+          "en": [
+            "I went to the supermarket with my mother"
+          ],
+          "audioText": "母とスーパーへ行きました",
+          "type": "sentence",
+          "tokens": [
+            "母|はは",
+            "と",
+            "スーパー",
+            "へ",
+            "行きました|いきました"
+          ]
+        },
+        {
+          "id": "gs.nekomoinumosukidesu",
+          "jp": "猫も犬も好きです",
+          "kana": "ねこもいぬもすきです",
+          "romaji": "neko mo inu mo suki desu",
+          "en": [
+            "I like both cats and dogs",
+            "I like cats and dogs too"
+          ],
+          "audioText": "猫も犬も好きです",
+          "type": "sentence",
+          "tokens": [
+            "猫|ねこ",
+            "も",
+            "犬|いぬ",
+            "も",
+            "好き|すき",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.toshokandehonoyomimasu",
+          "jp": "図書館で本を読みます",
+          "kana": "としょかんでほんをよみます",
+          "romaji": "toshokan de hon o yomimasu",
+          "en": [
+            "I read books at the library"
+          ],
+          "audioText": "図書館で本を読みます",
+          "type": "sentence",
+          "tokens": [
+            "図書館|としょかん",
+            "で",
+            "本|ほん",
+            "を",
+            "読みます|よみます"
+          ]
+        },
+        {
+          "id": "gs.nichiyoubinitomodachiniaimasu",
+          "jp": "日曜日に友達に会います",
+          "kana": "にちようびにともだちにあいます",
+          "romaji": "nichiyoubi ni tomodachi ni aimasu",
+          "en": [
+            "I meet a friend on Sunday",
+            "I meet friends on Sunday"
+          ],
+          "audioText": "日曜日に友達に会います",
+          "type": "sentence",
+          "tokens": [
+            "日曜日|にちようび",
+            "に",
+            "友達|ともだち",
+            "に",
+            "会います|あいます"
+          ]
+        },
+        {
+          "id": "gs.korewadarenokasadesuka",
+          "jp": "これは誰の傘ですか",
+          "kana": "これはだれのかさですか",
+          "romaji": "kore wa dare no kasa desu ka",
+          "en": [
+            "whose umbrella is this"
+          ],
+          "audioText": "これは誰の傘ですか",
+          "type": "sentence",
+          "tokens": [
+            "これ",
+            "は",
+            "誰|だれ",
+            "の",
+            "傘|かさ",
+            "です",
+            "か"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u07-l6",
+      "title": "や より だけ しか",
+      "items": [
+        {
+          "id": "p.ya",
+          "jp": "や",
+          "kana": "や",
+          "romaji": "ya",
+          "en": [
+            "and (among others)",
+            "and so on"
+          ],
+          "audioText": "や",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.yori",
+          "jp": "より",
+          "kana": "より",
+          "romaji": "yori",
+          "en": [
+            "than"
+          ],
+          "audioText": "より",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.dake",
+          "jp": "だけ",
+          "kana": "だけ",
+          "romaji": "dake",
+          "en": [
+            "only",
+            "just"
+          ],
+          "audioText": "だけ",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.shika",
+          "jp": "しか",
+          "kana": "しか",
+          "romaji": "shika",
+          "en": [
+            "only (with negative)"
+          ],
+          "audioText": "しか",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "gs.panyatamagookaimashita",
+          "jp": "パンや卵を買いました",
+          "kana": "パンやたまごをかいました",
+          "romaji": "pan ya tamago o kaimashita",
+          "en": [
+            "I bought bread, eggs and so on",
+            "I bought things like bread and eggs"
+          ],
+          "audioText": "パンや卵を買いました",
+          "type": "sentence",
+          "tokens": [
+            "パン",
+            "や",
+            "卵|たまご",
+            "を",
+            "買いました|かいました"
+          ]
+        },
+        {
+          "id": "gs.mizudakekudasai",
+          "jp": "水だけください",
+          "kana": "みずだけください",
+          "romaji": "mizu dake kudasai",
+          "en": [
+            "just water, please",
+            "only water please"
+          ],
+          "audioText": "水だけください",
+          "type": "sentence",
+          "tokens": [
+            "水|みず",
+            "だけ",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.hyakuenshikaarimasen",
+          "jp": "百円しかありません",
+          "kana": "ひゃくえんしかありません",
+          "romaji": "hyakuen shika arimasen",
+          "en": [
+            "I only have 100 yen",
+            "I only have one hundred yen"
+          ],
+          "audioText": "百円しかありません",
+          "type": "sentence",
+          "tokens": [
+            "百円|ひゃくえん",
+            "しか",
+            "ありません"
+          ]
+        }
+      ]
     }
   ]
 }
