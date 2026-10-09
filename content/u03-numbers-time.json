@@ -1,0 +1,69 @@
+{
+  "unit": "u03",
+  "title": "Numbers & Time",
+  "level": "N5",
+  "description": "Count to ten, ask prices, and tell the time.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u03-l1",
+      "title": "One to five",
+      "items": [
+        { "id": "n.ichi", "jp": "一", "kana": "いち", "romaji": "ichi", "en": ["one", "1"], "audioText": "いち", "type": "kanji", "emoji": "1️⃣", "strokes": ["一"] },
+        { "id": "n.ni", "jp": "二", "kana": "に", "romaji": "ni", "en": ["two", "2"], "audioText": "に", "type": "kanji", "emoji": "2️⃣", "strokes": ["二"] },
+        { "id": "n.san", "jp": "三", "kana": "さん", "romaji": "san", "en": ["three", "3"], "audioText": "さん", "type": "kanji", "emoji": "3️⃣", "strokes": ["三"] },
+        { "id": "n.yon", "jp": "四", "kana": "よん", "romaji": "yon", "en": ["four", "4"], "audioText": "よん", "type": "kanji", "emoji": "4️⃣", "alt": ["し", "shi"], "strokes": ["四"] },
+        { "id": "n.go", "jp": "五", "kana": "ご", "romaji": "go", "en": ["five", "5"], "audioText": "ご", "type": "kanji", "emoji": "5️⃣", "strokes": ["五"] }
+      ]
+    },
+    {
+      "lesson": "u03-l2",
+      "title": "Six to ten",
+      "items": [
+        { "id": "n.roku", "jp": "六", "kana": "ろく", "romaji": "roku", "en": ["six", "6"], "audioText": "ろく", "type": "kanji", "emoji": "6️⃣", "strokes": ["六"] },
+        { "id": "n.nana", "jp": "七", "kana": "なな", "romaji": "nana", "en": ["seven", "7"], "audioText": "なな", "type": "kanji", "emoji": "7️⃣", "alt": ["しち", "shichi"], "strokes": ["七"] },
+        { "id": "n.hachi", "jp": "八", "kana": "はち", "romaji": "hachi", "en": ["eight", "8"], "audioText": "はち", "type": "kanji", "emoji": "8️⃣", "strokes": ["八"] },
+        { "id": "n.kyuu", "jp": "九", "kana": "きゅう", "romaji": "kyuu", "en": ["nine", "9"], "audioText": "きゅう", "type": "kanji", "emoji": "9️⃣", "alt": ["く", "ku"], "strokes": ["九"] },
+        { "id": "n.juu", "jp": "十", "kana": "じゅう", "romaji": "juu", "en": ["ten", "10"], "audioText": "じゅう", "type": "kanji", "emoji": "🔟", "strokes": ["十"] }
+      ]
+    },
+    {
+      "lesson": "u03-l3",
+      "title": "Prices",
+      "items": [
+        { "id": "n.nijuu", "jp": "二十", "kana": "にじゅう", "romaji": "nijuu", "en": ["twenty", "20"], "audioText": "にじゅう", "type": "word", "note": "Two tens: 二 + 十." },
+        { "id": "n.hyaku", "jp": "百", "kana": "ひゃく", "romaji": "hyaku", "en": ["hundred", "one hundred", "100"], "audioText": "ひゃく", "type": "kanji", "emoji": "💯", "strokes": ["百"] },
+        { "id": "n.sen", "jp": "千", "kana": "せん", "romaji": "sen", "en": ["thousand", "one thousand", "1000"], "audioText": "せん", "type": "kanji", "strokes": ["千"] },
+        { "id": "n.en", "jp": "円", "kana": "えん", "romaji": "en", "en": ["yen"], "audioText": "えん", "type": "kanji", "emoji": "💴", "strokes": ["円"] },
+        { "id": "n.ikura", "jp": "いくら", "kana": "いくら", "romaji": "ikura", "en": ["how much"], "audioText": "いくら", "type": "word", "emoji": "🏷️" },
+        { "id": "s.ikuradesuka", "jp": "いくらですか", "kana": "いくらですか", "romaji": "ikura desu ka", "en": ["how much is it"], "audioText": "いくらですか", "type": "sentence", "tokens": ["いくら", "です", "か"] },
+        { "id": "s.hyakuendesu", "jp": "百円です", "kana": "ひゃくえんです", "romaji": "hyaku en desu", "en": ["it's 100 yen", "it is one hundred yen", "100 yen"], "audioText": "ひゃくえんです", "type": "sentence", "tokens": ["百|ひゃく", "円|えん", "です"] }
+      ]
+    },
+    {
+      "lesson": "u03-l4",
+      "title": "What time is it?",
+      "items": [
+        { "id": "t.ji", "jp": "時", "kana": "じ", "romaji": "ji", "en": ["o'clock", "hour"], "audioText": "じ", "type": "kanji", "emoji": "🕐", "strokes": ["時"] },
+        { "id": "t.ima", "jp": "今", "kana": "いま", "romaji": "ima", "en": ["now"], "audioText": "いま", "type": "kanji", "emoji": "⏱️", "strokes": ["今"] },
+        { "id": "t.nanji", "jp": "何時", "kana": "なんじ", "romaji": "nanji", "en": ["what time"], "audioText": "なんじ", "type": "word", "emoji": "❓", "strokes": ["何"] },
+        { "id": "t.yoji", "jp": "四時", "kana": "よじ", "romaji": "yoji", "en": ["four o'clock", "4 o'clock"], "audioText": "よじ", "type": "word", "emoji": "🕓", "note": "Four o'clock is よじ, not よんじ." },
+        { "id": "t.han", "jp": "半", "kana": "はん", "romaji": "han", "en": ["half", "half past"], "audioText": "はん", "type": "kanji", "emoji": "🌓", "strokes": ["半"] },
+        { "id": "s.imananjidesuka", "jp": "今何時ですか", "kana": "いまなんじですか", "romaji": "ima nanji desu ka", "en": ["what time is it now", "what time is it"], "audioText": "いまなんじですか", "type": "sentence", "tokens": ["今|いま", "何時|なんじ", "です", "か"] },
+        { "id": "s.sanjihandesu", "jp": "三時半です", "kana": "さんじはんです", "romaji": "sanji han desu", "en": ["it's half past three", "it is 3:30"], "audioText": "さんじはんです", "type": "sentence", "tokens": ["三時|さんじ", "半|はん", "です"] }
+      ]
+    },
+    {
+      "lesson": "u03-l5",
+      "title": "Days",
+      "items": [
+        { "id": "t.kyou", "jp": "今日", "kana": "きょう", "romaji": "kyou", "en": ["today"], "audioText": "きょう", "type": "word", "emoji": "📅", "furigana": [["今日", "きょう"]] },
+        { "id": "t.ashita", "jp": "明日", "kana": "あした", "romaji": "ashita", "en": ["tomorrow"], "audioText": "あした", "type": "word", "emoji": "➡️", "furigana": [["明日", "あした"]], "strokes": ["明"] },
+        { "id": "t.kinou", "jp": "昨日", "kana": "きのう", "romaji": "kinou", "en": ["yesterday"], "audioText": "きのう", "type": "word", "emoji": "⬅️", "furigana": [["昨日", "きのう"]] },
+        { "id": "t.mainichi", "jp": "毎日", "kana": "まいにち", "romaji": "mainichi", "en": ["every day", "everyday"], "audioText": "まいにち", "type": "word", "emoji": "🔁", "furigana": [["毎", "まい"], ["日", "にち"]] },
+        { "id": "t.asa", "jp": "朝", "kana": "あさ", "romaji": "asa", "en": ["morning"], "audioText": "あさ", "type": "kanji", "emoji": "☀️", "strokes": ["朝"] },
+        { "id": "t.yoru", "jp": "夜", "kana": "よる", "romaji": "yoru", "en": ["night", "evening"], "audioText": "よる", "type": "kanji", "emoji": "🌃", "strokes": ["夜"] }
+      ]
+    }
+  ]
+}

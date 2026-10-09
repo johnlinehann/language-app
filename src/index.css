@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-tap-highlight-color: transparent; }
+  body { @apply bg-washi-50 text-sumi-800 antialiased dark:bg-sumi-900 dark:text-washi-100; }
+  ruby rt { @apply text-[0.5em] font-normal opacity-80; }
+  :focus-visible { @apply outline-none ring-4 ring-ai-400/60 ring-offset-2 ring-offset-washi-50 dark:ring-offset-sumi-900; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex min-h-[52px] select-none items-center justify-center gap-2 rounded-2xl px-5 text-base font-bold uppercase tracking-wide
+      transition-[transform,box-shadow,background-color] duration-100 active:translate-y-[3px] disabled:cursor-not-allowed disabled:opacity-50 disabled:active:translate-y-0;
+  }
+  .btn-primary { @apply btn bg-ai-500 text-white shadow-[0_4px_0_0] shadow-ai-700 hover:bg-ai-400 active:shadow-none; }
+  .btn-success { @apply btn bg-matcha-500 text-white shadow-[0_4px_0_0] shadow-matcha-600 active:shadow-none; }
+  .btn-danger { @apply btn bg-rose-500 text-white shadow-[0_4px_0_0] shadow-rose-700 active:shadow-none; }
+  .btn-ghost {
+    @apply btn border-2 border-washi-200 bg-white text-sumi-700 shadow-[0_4px_0_0] shadow-washi-200 active:shadow-none
+      dark:border-sumi-700 dark:bg-sumi-800 dark:text-washi-100 dark:shadow-sumi-700;
+  }
+  .card { @apply rounded-2xl border-2 border-washi-200 bg-white dark:border-sumi-700 dark:bg-sumi-800; }
+  .option {
+    @apply flex min-h-[56px] w-full items-center gap-3 rounded-2xl border-2 border-washi-200 bg-white px-4 py-3 text-left text-lg
+      shadow-[0_4px_0_0] shadow-washi-200 transition-transform duration-100 active:translate-y-[3px] active:shadow-none
+      dark:border-sumi-700 dark:bg-sumi-800 dark:shadow-sumi-700;
+  }
+  .option[aria-pressed='true'], .option[aria-checked='true'] {
+    @apply border-ai-400 bg-ai-50 text-ai-700 shadow-ai-100 dark:bg-ai-900 dark:text-ai-100 dark:shadow-ai-700;
+  }
+  .tile {
+    @apply inline-flex min-h-[48px] min-w-[48px] items-center justify-center rounded-xl border-2 border-washi-200 bg-white px-3 py-1.5 text-lg
+      shadow-[0_3px_0_0] shadow-washi-200 transition-transform duration-100 active:translate-y-[2px] active:shadow-none
+      dark:border-sumi-700 dark:bg-sumi-800 dark:shadow-sumi-700;
+  }
+  .kbd { @apply hidden rounded border border-current px-1.5 text-xs opacity-50 sm:inline-block; }
+  .safe-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+}

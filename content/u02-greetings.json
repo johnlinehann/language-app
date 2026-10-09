@@ -1,0 +1,71 @@
+{
+  "unit": "u02",
+  "title": "Greetings",
+  "level": "N5",
+  "description": "Say hello, thank people, and introduce yourself.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u02-l1",
+      "title": "Hello",
+      "items": [
+        { "id": "w.konnichiwa", "jp": "こんにちは", "kana": "こんにちは", "romaji": "konnichiwa", "en": ["hello", "good afternoon", "hi"], "audioText": "こんにちは", "type": "phrase", "emoji": "👋", "note": "The final は is read “wa”." },
+        { "id": "w.ohayou", "jp": "おはよう", "kana": "おはよう", "romaji": "ohayou", "en": ["good morning", "morning"], "audioText": "おはよう", "type": "phrase", "emoji": "🌅" },
+        { "id": "w.ohayougozaimasu", "jp": "おはようございます", "kana": "おはようございます", "romaji": "ohayou gozaimasu", "en": ["good morning (polite)", "good morning"], "audioText": "おはようございます", "type": "phrase", "tokens": ["おはよう", "ございます"] },
+        { "id": "w.konbanwa", "jp": "こんばんは", "kana": "こんばんは", "romaji": "konbanwa", "en": ["good evening"], "audioText": "こんばんは", "type": "phrase", "emoji": "🌆" },
+        { "id": "w.sayounara", "jp": "さようなら", "kana": "さようなら", "romaji": "sayounara", "en": ["goodbye", "bye"], "audioText": "さようなら", "type": "phrase", "emoji": "🚪" },
+        { "id": "w.hai", "jp": "はい", "kana": "はい", "romaji": "hai", "en": ["yes"], "audioText": "はい", "type": "word", "emoji": "⭕" },
+        { "id": "w.iie", "jp": "いいえ", "kana": "いいえ", "romaji": "iie", "en": ["no"], "audioText": "いいえ", "type": "word", "emoji": "❌" }
+      ]
+    },
+    {
+      "lesson": "u02-l2",
+      "title": "Thank you",
+      "items": [
+        { "id": "w.arigatou", "jp": "ありがとう", "kana": "ありがとう", "romaji": "arigatou", "en": ["thank you", "thanks"], "audioText": "ありがとう", "type": "phrase", "emoji": "🙏" },
+        { "id": "w.arigatougozaimasu", "jp": "ありがとうございます", "kana": "ありがとうございます", "romaji": "arigatou gozaimasu", "en": ["thank you very much", "thank you (polite)", "thank you"], "audioText": "ありがとうございます", "type": "phrase", "tokens": ["ありがとう", "ございます"] },
+        { "id": "w.sumimasen", "jp": "すみません", "kana": "すみません", "romaji": "sumimasen", "en": ["excuse me", "sorry"], "audioText": "すみません", "type": "phrase", "emoji": "🙋" },
+        { "id": "w.gomennasai", "jp": "ごめんなさい", "kana": "ごめんなさい", "romaji": "gomennasai", "en": ["I'm sorry", "sorry"], "audioText": "ごめんなさい", "type": "phrase", "emoji": "🙇" },
+        { "id": "w.douitashimashite", "jp": "どういたしまして", "kana": "どういたしまして", "romaji": "dou itashimashite", "en": ["you're welcome"], "audioText": "どういたしまして", "type": "phrase", "emoji": "😊" },
+        { "id": "w.onegaishimasu", "jp": "お願いします", "kana": "おねがいします", "romaji": "onegai shimasu", "en": ["please"], "audioText": "おねがいします", "type": "phrase", "alt": ["おねがいします"] }
+      ]
+    },
+    {
+      "lesson": "u02-l3",
+      "title": "People",
+      "items": [
+        { "id": "w.watashi", "jp": "私", "kana": "わたし", "romaji": "watashi", "en": ["I", "me"], "audioText": "わたし", "type": "word", "emoji": "🧑", "strokes": ["私"] },
+        { "id": "w.anata", "jp": "あなた", "kana": "あなた", "romaji": "anata", "en": ["you"], "audioText": "あなた", "type": "word", "emoji": "👉" },
+        { "id": "w.namae", "jp": "名前", "kana": "なまえ", "romaji": "namae", "en": ["name"], "audioText": "なまえ", "type": "word", "emoji": "📛", "strokes": ["名"] },
+        { "id": "w.sensei", "jp": "先生", "kana": "せんせい", "romaji": "sensei", "en": ["teacher"], "audioText": "せんせい", "type": "word", "emoji": "👩‍🏫", "strokes": ["先", "生"] },
+        { "id": "w.gakusei", "jp": "学生", "kana": "がくせい", "romaji": "gakusei", "en": ["student"], "audioText": "がくせい", "type": "word", "emoji": "🎒", "strokes": ["学"] },
+        { "id": "w.nihonjin", "jp": "日本人", "kana": "にほんじん", "romaji": "nihonjin", "en": ["Japanese person", "Japanese"], "audioText": "にほんじん", "type": "word", "emoji": "🗾", "strokes": ["日", "本", "人"] },
+        { "id": "w.amerikajin", "jp": "アメリカ人", "kana": "アメリカじん", "romaji": "amerikajin", "en": ["American", "American person"], "audioText": "アメリカじん", "type": "word", "emoji": "🗽" }
+      ]
+    },
+    {
+      "lesson": "u02-l4",
+      "title": "Introductions",
+      "items": [
+        { "id": "s.hajimemashite", "jp": "はじめまして", "kana": "はじめまして", "romaji": "hajimemashite", "en": ["nice to meet you", "how do you do"], "audioText": "はじめまして", "type": "phrase", "emoji": "🤝" },
+        { "id": "s.yoroshiku", "jp": "よろしくお願いします", "kana": "よろしくおねがいします", "romaji": "yoroshiku onegai shimasu", "en": ["nice to meet you", "please treat me well"], "audioText": "よろしくおねがいします", "type": "phrase", "tokens": ["よろしく", "お願い|おねがい", "します"], "alt": ["よろしくおねがいします"] },
+        { "id": "s.watashiwagakuseidesu", "jp": "私は学生です", "kana": "わたしはがくせいです", "romaji": "watashi wa gakusei desu", "en": ["I am a student", "I'm a student"], "audioText": "わたしはがくせいです", "type": "sentence", "tokens": ["私|わたし", "は", "学生|がくせい", "です"], "note": "は (wa) marks the topic. です ends a polite sentence." },
+        { "id": "s.senseidesuka", "jp": "先生ですか", "kana": "せんせいですか", "romaji": "sensei desu ka", "en": ["are you a teacher", "is it the teacher"], "audioText": "せんせいですか", "type": "sentence", "tokens": ["先生|せんせい", "です", "か"], "note": "か at the end turns a sentence into a question." },
+        { "id": "s.haisoudesu", "jp": "はい、そうです", "kana": "はい、そうです", "romaji": "hai, sou desu", "en": ["yes, that's right", "yes, it is"], "audioText": "はい、そうです", "type": "sentence", "tokens": ["はい", "そう", "です"] },
+        { "id": "s.iiechigaimasu", "jp": "いいえ、違います", "kana": "いいえ、ちがいます", "romaji": "iie, chigaimasu", "en": ["no, that's wrong", "no, it isn't"], "audioText": "いいえ、ちがいます", "type": "sentence", "tokens": ["いいえ", "違います|ちがいます"] }
+      ]
+    },
+    {
+      "lesson": "u02-l5",
+      "title": "Daily phrases",
+      "items": [
+        { "id": "w.oyasuminasai", "jp": "おやすみなさい", "kana": "おやすみなさい", "romaji": "oyasuminasai", "en": ["good night"], "audioText": "おやすみなさい", "type": "phrase", "emoji": "🌙" },
+        { "id": "w.ittekimasu", "jp": "いってきます", "kana": "いってきます", "romaji": "ittekimasu", "en": ["I'm off", "see you later"], "audioText": "いってきます", "type": "phrase", "emoji": "🏃" },
+        { "id": "w.itadakimasu", "jp": "いただきます", "kana": "いただきます", "romaji": "itadakimasu", "en": ["thanks for the food", "let's eat"], "audioText": "いただきます", "type": "phrase", "emoji": "🍱", "note": "Said before eating." },
+        { "id": "w.gochisousama", "jp": "ごちそうさまでした", "kana": "ごちそうさまでした", "romaji": "gochisousama deshita", "en": ["thank you for the meal"], "audioText": "ごちそうさまでした", "type": "phrase", "emoji": "😋", "note": "Said after eating." },
+        { "id": "w.mataashita", "jp": "また明日", "kana": "またあした", "romaji": "mata ashita", "en": ["see you tomorrow"], "audioText": "またあした", "type": "phrase", "tokens": ["また", "明日|あした"], "alt": ["またあした"] },
+        { "id": "w.jaane", "jp": "じゃあね", "kana": "じゃあね", "romaji": "jaa ne", "en": ["see you", "bye"], "audioText": "じゃあね", "type": "phrase", "emoji": "✌️" }
+      ]
+    }
+  ]
+}

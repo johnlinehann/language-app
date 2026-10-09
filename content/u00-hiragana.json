@@ -1,0 +1,738 @@
+[
+  {
+    "unit": "u00a",
+    "title": "Hiragana I",
+    "level": "Kana",
+    "description": "The first 28 hiragana characters: vowels through the H-row.",
+    "checkpoint": true,
+    "lessons": [
+      {
+        "lesson": "u00a-l1",
+        "title": "あ い う え お か き",
+        "items": [
+          {
+            "id": "h.a",
+            "jp": "あ",
+            "kana": "あ",
+            "romaji": "a",
+            "en": "a",
+            "audioText": "あ",
+            "type": "kana",
+            "strokes": [
+              "あ"
+            ]
+          },
+          {
+            "id": "h.i",
+            "jp": "い",
+            "kana": "い",
+            "romaji": "i",
+            "en": "i",
+            "audioText": "い",
+            "type": "kana",
+            "strokes": [
+              "い"
+            ]
+          },
+          {
+            "id": "h.u",
+            "jp": "う",
+            "kana": "う",
+            "romaji": "u",
+            "en": "u",
+            "audioText": "う",
+            "type": "kana",
+            "strokes": [
+              "う"
+            ]
+          },
+          {
+            "id": "h.e",
+            "jp": "え",
+            "kana": "え",
+            "romaji": "e",
+            "en": "e",
+            "audioText": "え",
+            "type": "kana",
+            "strokes": [
+              "え"
+            ]
+          },
+          {
+            "id": "h.o",
+            "jp": "お",
+            "kana": "お",
+            "romaji": "o",
+            "en": "o",
+            "audioText": "お",
+            "type": "kana",
+            "strokes": [
+              "お"
+            ]
+          },
+          {
+            "id": "h.ka",
+            "jp": "か",
+            "kana": "か",
+            "romaji": "ka",
+            "en": "ka",
+            "audioText": "か",
+            "type": "kana",
+            "strokes": [
+              "か"
+            ]
+          },
+          {
+            "id": "h.ki",
+            "jp": "き",
+            "kana": "き",
+            "romaji": "ki",
+            "en": "ki",
+            "audioText": "き",
+            "type": "kana",
+            "strokes": [
+              "き"
+            ]
+          }
+        ]
+      },
+      {
+        "lesson": "u00a-l2",
+        "title": "く け こ さ し す せ",
+        "items": [
+          {
+            "id": "h.ku",
+            "jp": "く",
+            "kana": "く",
+            "romaji": "ku",
+            "en": "ku",
+            "audioText": "く",
+            "type": "kana",
+            "strokes": [
+              "く"
+            ]
+          },
+          {
+            "id": "h.ke",
+            "jp": "け",
+            "kana": "け",
+            "romaji": "ke",
+            "en": "ke",
+            "audioText": "け",
+            "type": "kana",
+            "strokes": [
+              "け"
+            ]
+          },
+          {
+            "id": "h.ko",
+            "jp": "こ",
+            "kana": "こ",
+            "romaji": "ko",
+            "en": "ko",
+            "audioText": "こ",
+            "type": "kana",
+            "strokes": [
+              "こ"
+            ]
+          },
+          {
+            "id": "h.sa",
+            "jp": "さ",
+            "kana": "さ",
+            "romaji": "sa",
+            "en": "sa",
+            "audioText": "さ",
+            "type": "kana",
+            "strokes": [
+              "さ"
+            ]
+          },
+          {
+            "id": "h.shi",
+            "jp": "し",
+            "kana": "し",
+            "romaji": "shi",
+            "en": "shi",
+            "audioText": "し",
+            "type": "kana",
+            "alt": [
+              "si"
+            ],
+            "strokes": [
+              "し"
+            ]
+          },
+          {
+            "id": "h.su",
+            "jp": "す",
+            "kana": "す",
+            "romaji": "su",
+            "en": "su",
+            "audioText": "す",
+            "type": "kana",
+            "strokes": [
+              "す"
+            ]
+          },
+          {
+            "id": "h.se",
+            "jp": "せ",
+            "kana": "せ",
+            "romaji": "se",
+            "en": "se",
+            "audioText": "せ",
+            "type": "kana",
+            "strokes": [
+              "せ"
+            ]
+          }
+        ]
+      },
+      {
+        "lesson": "u00a-l3",
+        "title": "そ た ち つ て と な",
+        "items": [
+          {
+            "id": "h.so",
+            "jp": "そ",
+            "kana": "そ",
+            "romaji": "so",
+            "en": "so",
+            "audioText": "そ",
+            "type": "kana",
+            "strokes": [
+              "そ"
+            ]
+          },
+          {
+            "id": "h.ta",
+            "jp": "た",
+            "kana": "た",
+            "romaji": "ta",
+            "en": "ta",
+            "audioText": "た",
+            "type": "kana",
+            "strokes": [
+              "た"
+            ]
+          },
+          {
+            "id": "h.chi",
+            "jp": "ち",
+            "kana": "ち",
+            "romaji": "chi",
+            "en": "chi",
+            "audioText": "ち",
+            "type": "kana",
+            "alt": [
+              "ti"
+            ],
+            "strokes": [
+              "ち"
+            ]
+          },
+          {
+            "id": "h.tsu",
+            "jp": "つ",
+            "kana": "つ",
+            "romaji": "tsu",
+            "en": "tsu",
+            "audioText": "つ",
+            "type": "kana",
+            "alt": [
+              "tu"
+            ],
+            "strokes": [
+              "つ"
+            ]
+          },
+          {
+            "id": "h.te",
+            "jp": "て",
+            "kana": "て",
+            "romaji": "te",
+            "en": "te",
+            "audioText": "て",
+            "type": "kana",
+            "strokes": [
+              "て"
+            ]
+          },
+          {
+            "id": "h.to",
+            "jp": "と",
+            "kana": "と",
+            "romaji": "to",
+            "en": "to",
+            "audioText": "と",
+            "type": "kana",
+            "strokes": [
+              "と"
+            ]
+          },
+          {
+            "id": "h.na",
+            "jp": "な",
+            "kana": "な",
+            "romaji": "na",
+            "en": "na",
+            "audioText": "な",
+            "type": "kana",
+            "strokes": [
+              "な"
+            ]
+          }
+        ]
+      },
+      {
+        "lesson": "u00a-l4",
+        "title": "に ぬ ね の は ひ ふ",
+        "items": [
+          {
+            "id": "h.ni",
+            "jp": "に",
+            "kana": "に",
+            "romaji": "ni",
+            "en": "ni",
+            "audioText": "に",
+            "type": "kana",
+            "strokes": [
+              "に"
+            ]
+          },
+          {
+            "id": "h.nu",
+            "jp": "ぬ",
+            "kana": "ぬ",
+            "romaji": "nu",
+            "en": "nu",
+            "audioText": "ぬ",
+            "type": "kana",
+            "strokes": [
+              "ぬ"
+            ]
+          },
+          {
+            "id": "h.ne",
+            "jp": "ね",
+            "kana": "ね",
+            "romaji": "ne",
+            "en": "ne",
+            "audioText": "ね",
+            "type": "kana",
+            "strokes": [
+              "ね"
+            ]
+          },
+          {
+            "id": "h.no",
+            "jp": "の",
+            "kana": "の",
+            "romaji": "no",
+            "en": "no",
+            "audioText": "の",
+            "type": "kana",
+            "strokes": [
+              "の"
+            ]
+          },
+          {
+            "id": "h.ha",
+            "jp": "は",
+            "kana": "は",
+            "romaji": "ha",
+            "en": "ha",
+            "audioText": "は",
+            "type": "kana",
+            "strokes": [
+              "は"
+            ]
+          },
+          {
+            "id": "h.hi",
+            "jp": "ひ",
+            "kana": "ひ",
+            "romaji": "hi",
+            "en": "hi",
+            "audioText": "ひ",
+            "type": "kana",
+            "strokes": [
+              "ひ"
+            ]
+          },
+          {
+            "id": "h.fu",
+            "jp": "ふ",
+            "kana": "ふ",
+            "romaji": "fu",
+            "en": "fu",
+            "audioText": "ふ",
+            "type": "kana",
+            "alt": [
+              "hu"
+            ],
+            "strokes": [
+              "ふ"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "unit": "u00b",
+    "title": "Hiragana II",
+    "level": "Kana",
+    "description": "The rest of hiragana, plus the voicing marks ゛ and ゜.",
+    "checkpoint": true,
+    "lessons": [
+      {
+        "lesson": "u00b-l1",
+        "title": "へ ほ ま み む",
+        "items": [
+          {
+            "id": "h.he",
+            "jp": "へ",
+            "kana": "へ",
+            "romaji": "he",
+            "en": "he",
+            "audioText": "へ",
+            "type": "kana",
+            "strokes": [
+              "へ"
+            ]
+          },
+          {
+            "id": "h.ho",
+            "jp": "ほ",
+            "kana": "ほ",
+            "romaji": "ho",
+            "en": "ho",
+            "audioText": "ほ",
+            "type": "kana",
+            "strokes": [
+              "ほ"
+            ]
+          },
+          {
+            "id": "h.ma",
+            "jp": "ま",
+            "kana": "ま",
+            "romaji": "ma",
+            "en": "ma",
+            "audioText": "ま",
+            "type": "kana",
+            "strokes": [
+              "ま"
+            ]
+          },
+          {
+            "id": "h.mi",
+            "jp": "み",
+            "kana": "み",
+            "romaji": "mi",
+            "en": "mi",
+            "audioText": "み",
+            "type": "kana",
+            "strokes": [
+              "み"
+            ]
+          },
+          {
+            "id": "h.mu",
+            "jp": "む",
+            "kana": "む",
+            "romaji": "mu",
+            "en": "mu",
+            "audioText": "む",
+            "type": "kana",
+            "strokes": [
+              "む"
+            ]
+          }
+        ]
+      },
+      {
+        "lesson": "u00b-l2",
+        "title": "め も や ゆ よ",
+        "items": [
+          {
+            "id": "h.me",
+            "jp": "め",
+            "kana": "め",
+            "romaji": "me",
+            "en": "me",
+            "audioText": "め",
+            "type": "kana",
+            "strokes": [
+              "め"
+            ]
+          },
+          {
+            "id": "h.mo",
+            "jp": "も",
+            "kana": "も",
+            "romaji": "mo",
+            "en": "mo",
+            "audioText": "も",
+            "type": "kana",
+            "strokes": [
+              "も"
+            ]
+          },
+          {
+            "id": "h.ya",
+            "jp": "や",
+            "kana": "や",
+            "romaji": "ya",
+            "en": "ya",
+            "audioText": "や",
+            "type": "kana",
+            "strokes": [
+              "や"
+            ]
+          },
+          {
+            "id": "h.yu",
+            "jp": "ゆ",
+            "kana": "ゆ",
+            "romaji": "yu",
+            "en": "yu",
+            "audioText": "ゆ",
+            "type": "kana",
+            "strokes": [
+              "ゆ"
+            ]
+          },
+          {
+            "id": "h.yo",
+            "jp": "よ",
+            "kana": "よ",
+            "romaji": "yo",
+            "en": "yo",
+            "audioText": "よ",
+            "type": "kana",
+            "strokes": [
+              "よ"
+            ]
+          }
+        ]
+      },
+      {
+        "lesson": "u00b-l3",
+        "title": "ら り る れ",
+        "items": [
+          {
+            "id": "h.ra",
+            "jp": "ら",
+            "kana": "ら",
+            "romaji": "ra",
+            "en": "ra",
+            "audioText": "ら",
+            "type": "kana",
+            "strokes": [
+              "ら"
+            ]
+          },
+          {
+            "id": "h.ri",
+            "jp": "り",
+            "kana": "り",
+            "romaji": "ri",
+            "en": "ri",
+            "audioText": "り",
+            "type": "kana",
+            "strokes": [
+              "り"
+            ]
+          },
+          {
+            "id": "h.ru",
+            "jp": "る",
+            "kana": "る",
+            "romaji": "ru",
+            "en": "ru",
+            "audioText": "る",
+            "type": "kana",
+            "strokes": [
+              "る"
+            ]
+          },
+          {
+            "id": "h.re",
+            "jp": "れ",
+            "kana": "れ",
+            "romaji": "re",
+            "en": "re",
+            "audioText": "れ",
+            "type": "kana",
+            "strokes": [
+              "れ"
+            ]
+          }
+        ]
+      },
+      {
+        "lesson": "u00b-l4",
+        "title": "ろ わ を ん",
+        "items": [
+          {
+            "id": "h.ro",
+            "jp": "ろ",
+            "kana": "ろ",
+            "romaji": "ro",
+            "en": "ro",
+            "audioText": "ろ",
+            "type": "kana",
+            "strokes": [
+              "ろ"
+            ]
+          },
+          {
+            "id": "h.wa",
+            "jp": "わ",
+            "kana": "わ",
+            "romaji": "wa",
+            "en": "wa",
+            "audioText": "わ",
+            "type": "kana",
+            "strokes": [
+              "わ"
+            ]
+          },
+          {
+            "id": "h.wo",
+            "jp": "を",
+            "kana": "を",
+            "romaji": "wo",
+            "en": "wo",
+            "audioText": "を",
+            "type": "kana",
+            "alt": [
+              "o"
+            ],
+            "strokes": [
+              "を"
+            ]
+          },
+          {
+            "id": "h.n",
+            "jp": "ん",
+            "kana": "ん",
+            "romaji": "n",
+            "en": "n",
+            "audioText": "ん",
+            "type": "kana",
+            "alt": [
+              "nn"
+            ],
+            "strokes": [
+              "ん"
+            ]
+          }
+        ]
+      },
+      {
+        "lesson": "u00b-l5",
+        "title": "Voiced ゛゜",
+        "items": [
+          {
+            "id": "h.ga",
+            "jp": "が",
+            "kana": "が",
+            "romaji": "ga",
+            "en": "ga",
+            "audioText": "が",
+            "type": "kana",
+            "strokes": [
+              "が"
+            ],
+            "note": "The two dots ゛ voice the consonant: k→g, s→z, t→d, h→b."
+          },
+          {
+            "id": "h.gi",
+            "jp": "ぎ",
+            "kana": "ぎ",
+            "romaji": "gi",
+            "en": "gi",
+            "audioText": "ぎ",
+            "type": "kana",
+            "strokes": [
+              "ぎ"
+            ],
+            "note": "The two dots ゛ voice the consonant: k→g, s→z, t→d, h→b."
+          },
+          {
+            "id": "h.gu",
+            "jp": "ぐ",
+            "kana": "ぐ",
+            "romaji": "gu",
+            "en": "gu",
+            "audioText": "ぐ",
+            "type": "kana",
+            "strokes": [
+              "ぐ"
+            ],
+            "note": "The two dots ゛ voice the consonant: k→g, s→z, t→d, h→b."
+          },
+          {
+            "id": "h.za",
+            "jp": "ざ",
+            "kana": "ざ",
+            "romaji": "za",
+            "en": "za",
+            "audioText": "ざ",
+            "type": "kana",
+            "strokes": [
+              "ざ"
+            ],
+            "note": "The two dots ゛ voice the consonant: k→g, s→z, t→d, h→b."
+          },
+          {
+            "id": "h.ji",
+            "jp": "じ",
+            "kana": "じ",
+            "romaji": "ji",
+            "en": "ji",
+            "audioText": "じ",
+            "type": "kana",
+            "alt": [
+              "zi"
+            ],
+            "strokes": [
+              "じ"
+            ],
+            "note": "The two dots ゛ voice the consonant: k→g, s→z, t→d, h→b."
+          },
+          {
+            "id": "h.da",
+            "jp": "だ",
+            "kana": "だ",
+            "romaji": "da",
+            "en": "da",
+            "audioText": "だ",
+            "type": "kana",
+            "strokes": [
+              "だ"
+            ],
+            "note": "The two dots ゛ voice the consonant: k→g, s→z, t→d, h→b."
+          },
+          {
+            "id": "h.ba",
+            "jp": "ば",
+            "kana": "ば",
+            "romaji": "ba",
+            "en": "ba",
+            "audioText": "ば",
+            "type": "kana",
+            "strokes": [
+              "ば"
+            ],
+            "note": "The two dots ゛ voice the consonant: k→g, s→z, t→d, h→b."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "unit": "u04",
+  "title": "Food & Drink",
+  "level": "N5",
+  "description": "Name foods, order at a restaurant, and say what you like.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u04-l1",
+      "title": "Basics",
+      "items": [
+        { "id": "f.gohan", "jp": "ご飯", "kana": "ごはん", "romaji": "gohan", "en": ["rice", "meal", "cooked rice"], "audioText": "ごはん", "type": "word", "emoji": "🍚", "strokes": ["飯"] },
+        { "id": "f.pan", "jp": "パン", "kana": "パン", "romaji": "pan", "en": ["bread"], "audioText": "パン", "type": "word", "emoji": "🍞" },
+        { "id": "f.mizu", "jp": "水", "kana": "みず", "romaji": "mizu", "en": ["water"], "audioText": "みず", "type": "kanji", "emoji": "💧", "strokes": ["水"] },
+        { "id": "f.ocha", "jp": "お茶", "kana": "おちゃ", "romaji": "ocha", "en": ["tea", "green tea"], "audioText": "おちゃ", "type": "word", "emoji": "🍵", "strokes": ["茶"] },
+        { "id": "f.sakana", "jp": "魚", "kana": "さかな", "romaji": "sakana", "en": ["fish"], "audioText": "さかな", "type": "kanji", "emoji": "🐟", "strokes": ["魚"] },
+        { "id": "f.niku", "jp": "肉", "kana": "にく", "romaji": "niku", "en": ["meat"], "audioText": "にく", "type": "kanji", "emoji": "🥩", "strokes": ["肉"] },
+        { "id": "f.tamago", "jp": "卵", "kana": "たまご", "romaji": "tamago", "en": ["egg"], "audioText": "たまご", "type": "kanji", "emoji": "🥚" }
+      ]
+    },
+    {
+      "lesson": "u04-l2",
+      "title": "Fruit & veg",
+      "items": [
+        { "id": "f.ringo", "jp": "りんご", "kana": "りんご", "romaji": "ringo", "en": ["apple"], "audioText": "りんご", "type": "word", "emoji": "🍎" },
+        { "id": "f.banana", "jp": "バナナ", "kana": "バナナ", "romaji": "banana", "en": ["banana"], "audioText": "バナナ", "type": "word", "emoji": "🍌" },
+        { "id": "f.mikan", "jp": "みかん", "kana": "みかん", "romaji": "mikan", "en": ["mandarin orange", "orange", "mandarin"], "audioText": "みかん", "type": "word", "emoji": "🍊" },
+        { "id": "f.ichigo", "jp": "いちご", "kana": "いちご", "romaji": "ichigo", "en": ["strawberry"], "audioText": "いちご", "type": "word", "emoji": "🍓" },
+        { "id": "f.tomato", "jp": "トマト", "kana": "トマト", "romaji": "tomato", "en": ["tomato"], "audioText": "トマト", "type": "word", "emoji": "🍅" },
+        { "id": "f.yasai", "jp": "野菜", "kana": "やさい", "romaji": "yasai", "en": ["vegetables", "vegetable"], "audioText": "やさい", "type": "word", "emoji": "🥦" }
+      ]
+    },
+    {
+      "lesson": "u04-l3",
+      "title": "At a restaurant",
+      "items": [
+        { "id": "f.menyuu", "jp": "メニュー", "kana": "メニュー", "romaji": "menyuu", "en": ["menu"], "audioText": "メニュー", "type": "word", "emoji": "📋" },
+        { "id": "f.kudasai", "jp": "ください", "kana": "ください", "romaji": "kudasai", "en": ["please give me", "please"], "audioText": "ください", "type": "word", "emoji": "🤲" },
+        { "id": "f.oishii", "jp": "美味しい", "kana": "おいしい", "romaji": "oishii", "en": ["delicious", "tasty"], "audioText": "おいしい", "type": "word", "emoji": "😋", "alt": ["おいしい"] },
+        { "id": "f.tabemasu", "jp": "食べます", "kana": "たべます", "romaji": "tabemasu", "en": ["eat", "I eat", "to eat"], "audioText": "たべます", "type": "word", "emoji": "🍽️", "strokes": ["食"], "note": "ます is the polite verb ending." },
+        { "id": "f.nomimasu", "jp": "飲みます", "kana": "のみます", "romaji": "nomimasu", "en": ["drink", "I drink", "to drink"], "audioText": "のみます", "type": "word", "emoji": "🥤", "strokes": ["飲"] },
+        { "id": "s.mizuokudasai", "jp": "水をください", "kana": "みずをください", "romaji": "mizu o kudasai", "en": ["water, please", "please give me water", "water please"], "audioText": "みずをください", "type": "sentence", "tokens": ["水|みず", "を", "ください"], "note": "を (o) marks the object of the verb." }
+      ]
+    },
+    {
+      "lesson": "u04-l4",
+      "title": "I like sushi",
+      "items": [
+        { "id": "s.raamenotabemasu", "jp": "ラーメンを食べます", "kana": "ラーメンをたべます", "romaji": "raamen o tabemasu", "en": ["I eat ramen", "I will eat ramen"], "audioText": "ラーメンをたべます", "type": "sentence", "tokens": ["ラーメン", "を", "食べます|たべます"] },
+        { "id": "s.ochaonomimasu", "jp": "お茶を飲みます", "kana": "おちゃをのみます", "romaji": "ocha o nomimasu", "en": ["I drink tea", "I will drink tea"], "audioText": "おちゃをのみます", "type": "sentence", "tokens": ["お茶|おちゃ", "を", "飲みます|のみます"] },
+        { "id": "w.kore", "jp": "これ", "kana": "これ", "romaji": "kore", "en": ["this", "this one"], "audioText": "これ", "type": "word", "emoji": "👇" },
+        { "id": "s.korewanandesuka", "jp": "これは何ですか", "kana": "これはなんですか", "romaji": "kore wa nan desu ka", "en": ["what is this"], "audioText": "これはなんですか", "type": "sentence", "tokens": ["これ", "は", "何|なん", "です", "か"] },
+        { "id": "s.korewaringodesu", "jp": "これはりんごです", "kana": "これはりんごです", "romaji": "kore wa ringo desu", "en": ["this is an apple", "this is apple"], "audioText": "これはりんごです", "type": "sentence", "tokens": ["これ", "は", "りんご", "です"] },
+        { "id": "s.sushigasukidesu", "jp": "すしが好きです", "kana": "すしがすきです", "romaji": "sushi ga suki desu", "en": ["I like sushi"], "audioText": "すしがすきです", "type": "sentence", "tokens": ["すし", "が", "好き|すき", "です"], "note": "Xが好きです = I like X." },
+        { "id": "s.oishiidesu", "jp": "美味しいです", "kana": "おいしいです", "romaji": "oishii desu", "en": ["it's delicious", "it is delicious", "delicious"], "audioText": "おいしいです", "type": "sentence", "tokens": ["美味しい|おいしい", "です"], "alt": ["おいしいです"] }
+      ]
+    }
+  ]
+}
