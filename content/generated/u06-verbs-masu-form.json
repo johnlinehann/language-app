@@ -1,0 +1,495 @@
+{
+  "unit": "u06",
+  "title": "Verbs: ます form",
+  "level": "N5",
+  "description": "Everyday actions in the polite present, negative and past.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u06-l1",
+      "title": "Coming & going",
+      "items": [
+        {
+          "id": "g.ikimasu",
+          "jp": "行きます",
+          "kana": "いきます",
+          "romaji": "ikimasu",
+          "en": [
+            "go"
+          ],
+          "audioText": "いきます",
+          "type": "word",
+          "emoji": "🚶",
+          "strokes": [
+            "行"
+          ],
+          "note": "Dictionary form: 行く（いく）"
+        },
+        {
+          "id": "g.kimasu",
+          "jp": "来ます",
+          "kana": "きます",
+          "romaji": "kimasu",
+          "en": [
+            "come"
+          ],
+          "audioText": "きます",
+          "type": "word",
+          "emoji": "👋",
+          "strokes": [
+            "来"
+          ],
+          "note": "Dictionary form: 来る（くる）"
+        },
+        {
+          "id": "g.kaerimasu",
+          "jp": "帰ります",
+          "kana": "かえります",
+          "romaji": "kaerimasu",
+          "en": [
+            "go home",
+            "return"
+          ],
+          "audioText": "かえります",
+          "type": "word",
+          "emoji": "🏠",
+          "strokes": [
+            "帰"
+          ],
+          "note": "Dictionary form: 帰る（かえる）"
+        },
+        {
+          "id": "g.mimasu",
+          "jp": "見ます",
+          "kana": "みます",
+          "romaji": "mimasu",
+          "en": [
+            "see",
+            "watch",
+            "look"
+          ],
+          "audioText": "みます",
+          "type": "word",
+          "emoji": "👀",
+          "strokes": [
+            "見"
+          ],
+          "note": "Dictionary form: 見る（みる）"
+        },
+        {
+          "id": "g.kikimasu",
+          "jp": "聞きます",
+          "kana": "ききます",
+          "romaji": "kikimasu",
+          "en": [
+            "listen",
+            "hear",
+            "ask"
+          ],
+          "audioText": "ききます",
+          "type": "word",
+          "emoji": "👂",
+          "strokes": [
+            "聞"
+          ],
+          "note": "Dictionary form: 聞く（きく）"
+        }
+      ]
+    },
+    {
+      "lesson": "u06-l2",
+      "title": "Reading & writing",
+      "items": [
+        {
+          "id": "g.yomimasu",
+          "jp": "読みます",
+          "kana": "よみます",
+          "romaji": "yomimasu",
+          "en": [
+            "read"
+          ],
+          "audioText": "よみます",
+          "type": "word",
+          "emoji": "📖",
+          "strokes": [
+            "読"
+          ],
+          "note": "Dictionary form: 読む（よむ）"
+        },
+        {
+          "id": "g.kakimasu",
+          "jp": "書きます",
+          "kana": "かきます",
+          "romaji": "kakimasu",
+          "en": [
+            "write"
+          ],
+          "audioText": "かきます",
+          "type": "word",
+          "emoji": "✍️",
+          "strokes": [
+            "書"
+          ],
+          "note": "Dictionary form: 書く（かく）"
+        },
+        {
+          "id": "g.hanashimasu",
+          "jp": "話します",
+          "kana": "はなします",
+          "romaji": "hanashimasu",
+          "en": [
+            "speak",
+            "talk"
+          ],
+          "audioText": "はなします",
+          "type": "word",
+          "emoji": "🗣️",
+          "strokes": [
+            "話"
+          ],
+          "note": "Dictionary form: 話す（はなす）"
+        },
+        {
+          "id": "g.kaimasu",
+          "jp": "買います",
+          "kana": "かいます",
+          "romaji": "kaimasu",
+          "en": [
+            "buy"
+          ],
+          "audioText": "かいます",
+          "type": "word",
+          "emoji": "🛍️",
+          "strokes": [
+            "買"
+          ],
+          "note": "Dictionary form: 買う（かう）"
+        },
+        {
+          "id": "g.okimasu",
+          "jp": "起きます",
+          "kana": "おきます",
+          "romaji": "okimasu",
+          "en": [
+            "wake up",
+            "get up"
+          ],
+          "audioText": "おきます",
+          "type": "word",
+          "emoji": "⏰",
+          "strokes": [
+            "起"
+          ],
+          "note": "Dictionary form: 起きる（おきる）"
+        },
+        {
+          "id": "g.nemasu",
+          "jp": "寝ます",
+          "kana": "ねます",
+          "romaji": "nemasu",
+          "en": [
+            "sleep",
+            "go to bed"
+          ],
+          "audioText": "ねます",
+          "type": "word",
+          "emoji": "😴",
+          "strokes": [
+            "寝"
+          ],
+          "note": "Dictionary form: 寝る（ねる）"
+        }
+      ]
+    },
+    {
+      "lesson": "u06-l3",
+      "title": "Work & play",
+      "items": [
+        {
+          "id": "g.shimasu",
+          "jp": "します",
+          "kana": "します",
+          "romaji": "shimasu",
+          "en": [
+            "do"
+          ],
+          "audioText": "します",
+          "type": "word",
+          "emoji": "✅",
+          "note": "Dictionary form: する（する）"
+        },
+        {
+          "id": "g.benkyoushimasu",
+          "jp": "勉強します",
+          "kana": "べんきょうします",
+          "romaji": "benkyoushimasu",
+          "en": [
+            "study"
+          ],
+          "audioText": "べんきょうします",
+          "type": "word",
+          "emoji": "📚",
+          "strokes": [
+            "勉",
+            "強"
+          ],
+          "note": "Dictionary form: 勉強する（べんきょうする）"
+        },
+        {
+          "id": "g.hatarakimasu",
+          "jp": "働きます",
+          "kana": "はたらきます",
+          "romaji": "hatarakimasu",
+          "en": [
+            "work"
+          ],
+          "audioText": "はたらきます",
+          "type": "word",
+          "emoji": "💼",
+          "strokes": [
+            "働"
+          ],
+          "note": "Dictionary form: 働く（はたらく）"
+        },
+        {
+          "id": "g.machimasu",
+          "jp": "待ちます",
+          "kana": "まちます",
+          "romaji": "machimasu",
+          "en": [
+            "wait"
+          ],
+          "audioText": "まちます",
+          "type": "word",
+          "emoji": "⏳",
+          "strokes": [
+            "待"
+          ],
+          "note": "Dictionary form: 待つ（まつ）"
+        },
+        {
+          "id": "g.aimasu",
+          "jp": "会います",
+          "kana": "あいます",
+          "romaji": "aimasu",
+          "en": [
+            "meet"
+          ],
+          "audioText": "あいます",
+          "type": "word",
+          "emoji": "🤝",
+          "strokes": [
+            "会"
+          ],
+          "note": "Dictionary form: 会う（あう）"
+        },
+        {
+          "id": "g.asobimasu",
+          "jp": "遊びます",
+          "kana": "あそびます",
+          "romaji": "asobimasu",
+          "en": [
+            "play",
+            "hang out"
+          ],
+          "audioText": "あそびます",
+          "type": "word",
+          "emoji": "🎮",
+          "strokes": [
+            "遊"
+          ],
+          "note": "Dictionary form: 遊ぶ（あそぶ）"
+        }
+      ]
+    },
+    {
+      "lesson": "u06-l4",
+      "title": "Didn't, did, let's",
+      "items": [
+        {
+          "id": "g.masen",
+          "jp": "ません",
+          "kana": "ません",
+          "romaji": "masen",
+          "en": [
+            "don't (polite negative)",
+            "do not"
+          ],
+          "audioText": "ません",
+          "type": "word"
+        },
+        {
+          "id": "g.mashita",
+          "jp": "ました",
+          "kana": "ました",
+          "romaji": "mashita",
+          "en": [
+            "did (polite past)"
+          ],
+          "audioText": "ました",
+          "type": "word"
+        },
+        {
+          "id": "g.masendeshita",
+          "jp": "ませんでした",
+          "kana": "ませんでした",
+          "romaji": "masendeshita",
+          "en": [
+            "didn't (polite past negative)",
+            "did not"
+          ],
+          "audioText": "ませんでした",
+          "type": "word"
+        },
+        {
+          "id": "g.mashou",
+          "jp": "ましょう",
+          "kana": "ましょう",
+          "romaji": "mashou",
+          "en": [
+            "let's"
+          ],
+          "audioText": "ましょう",
+          "type": "word"
+        },
+        {
+          "id": "gs.gohanotabemashou",
+          "jp": "ご飯を食べましょう",
+          "kana": "ごはんをたべましょう",
+          "romaji": "gohan o tabemashou",
+          "en": [
+            "let's eat"
+          ],
+          "audioText": "ご飯を食べましょう",
+          "type": "sentence",
+          "tokens": [
+            "ご飯|ごはん",
+            "を",
+            "食べましょう|たべましょう"
+          ]
+        },
+        {
+          "id": "gs.terebiomimasen",
+          "jp": "テレビを見ません",
+          "kana": "テレビをみません",
+          "romaji": "terebi o mimasen",
+          "en": [
+            "I don't watch TV"
+          ],
+          "audioText": "テレビを見ません",
+          "type": "sentence",
+          "tokens": [
+            "テレビ",
+            "を",
+            "見ません|みません"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u06-l5",
+      "title": "My day",
+      "items": [
+        {
+          "id": "gs.gakkouniikimasu",
+          "jp": "学校に行きます",
+          "kana": "がっこうにいきます",
+          "romaji": "gakkou ni ikimasu",
+          "en": [
+            "I go to school"
+          ],
+          "audioText": "学校に行きます",
+          "type": "sentence",
+          "tokens": [
+            "学校|がっこう",
+            "に",
+            "行きます|いきます"
+          ]
+        },
+        {
+          "id": "gs.honoyomimasu",
+          "jp": "本を読みます",
+          "kana": "ほんをよみます",
+          "romaji": "hon o yomimasu",
+          "en": [
+            "I read a book",
+            "I read books"
+          ],
+          "audioText": "本を読みます",
+          "type": "sentence",
+          "tokens": [
+            "本|ほん",
+            "を",
+            "読みます|よみます"
+          ]
+        },
+        {
+          "id": "gs.kinoubenkyoushimashita",
+          "jp": "昨日勉強しました",
+          "kana": "きのうべんきょうしました",
+          "romaji": "kinou benkyoushimashita",
+          "en": [
+            "I studied yesterday"
+          ],
+          "audioText": "昨日勉強しました",
+          "type": "sentence",
+          "tokens": [
+            "昨日|きのう",
+            "勉強しました|べんきょうしました"
+          ]
+        },
+        {
+          "id": "gs.maiasashichijiniokimasu",
+          "jp": "毎朝七時に起きます",
+          "kana": "まいあさしちじにおきます",
+          "romaji": "maiasa shichiji ni okimasu",
+          "en": [
+            "I get up at seven every morning"
+          ],
+          "audioText": "毎朝七時に起きます",
+          "type": "sentence",
+          "tokens": [
+            "毎朝|まいあさ",
+            "七時|しちじ",
+            "に",
+            "起きます|おきます"
+          ]
+        },
+        {
+          "id": "gs.isshoniikimasenka",
+          "jp": "一緒に行きませんか",
+          "kana": "いっしょにいきませんか",
+          "romaji": "issho ni ikimasen ka",
+          "en": [
+            "won't you go together",
+            "shall we go together"
+          ],
+          "audioText": "一緒に行きませんか",
+          "type": "sentence",
+          "tokens": [
+            "一緒|いっしょ",
+            "に",
+            "行きません|いきません",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.tomodachiniaimashita",
+          "jp": "友達に会いました",
+          "kana": "ともだちにあいました",
+          "romaji": "tomodachi ni aimashita",
+          "en": [
+            "I met a friend"
+          ],
+          "audioText": "友達に会いました",
+          "type": "sentence",
+          "tokens": [
+            "友達|ともだち",
+            "に",
+            "会いました|あいました"
+          ]
+        }
+      ]
+    }
+  ]
+}

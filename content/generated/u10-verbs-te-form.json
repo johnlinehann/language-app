@@ -1,0 +1,474 @@
+{
+  "unit": "u10",
+  "title": "Verbs: て form",
+  "level": "N4",
+  "description": "Link actions, make requests, and say what is happening now.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u10-l1",
+      "title": "て form I",
+      "items": [
+        {
+          "id": "g.tabete",
+          "jp": "食べて",
+          "kana": "たべて",
+          "romaji": "tabete",
+          "en": [
+            "eat (te-form)"
+          ],
+          "audioText": "たべて",
+          "type": "word",
+          "emoji": "🍽️",
+          "note": "る-verbs: drop る, add て. Most う-verbs change: く→いて, む→んで, う/つ/る→って."
+        },
+        {
+          "id": "g.nonde",
+          "jp": "飲んで",
+          "kana": "のんで",
+          "romaji": "nonde",
+          "en": [
+            "drink (te-form)"
+          ],
+          "audioText": "のんで",
+          "type": "word",
+          "emoji": "🥤",
+          "note": "Dictionary form: 飲む（のむ）"
+        },
+        {
+          "id": "g.itte",
+          "jp": "行って",
+          "kana": "いって",
+          "romaji": "itte",
+          "en": [
+            "go (te-form)"
+          ],
+          "audioText": "いって",
+          "type": "word",
+          "emoji": "🚶",
+          "note": "Dictionary form: 行く（いく）"
+        },
+        {
+          "id": "g.kite",
+          "jp": "来て",
+          "kana": "きて",
+          "romaji": "kite",
+          "en": [
+            "come (te-form)"
+          ],
+          "audioText": "きて",
+          "type": "word",
+          "emoji": "👋",
+          "note": "Dictionary form: 来る（くる）"
+        },
+        {
+          "id": "g.mite",
+          "jp": "見て",
+          "kana": "みて",
+          "romaji": "mite",
+          "en": [
+            "see (te-form)",
+            "watch (te-form)",
+            "look (te-form)"
+          ],
+          "audioText": "みて",
+          "type": "word",
+          "emoji": "👀",
+          "note": "Dictionary form: 見る（みる）"
+        },
+        {
+          "id": "g.kaite",
+          "jp": "書いて",
+          "kana": "かいて",
+          "romaji": "kaite",
+          "en": [
+            "write (te-form)"
+          ],
+          "audioText": "かいて",
+          "type": "word",
+          "emoji": "✍️",
+          "note": "Dictionary form: 書く（かく）"
+        },
+        {
+          "id": "g.yonde",
+          "jp": "読んで",
+          "kana": "よんで",
+          "romaji": "yonde",
+          "en": [
+            "read (te-form)"
+          ],
+          "audioText": "よんで",
+          "type": "word",
+          "emoji": "📖",
+          "note": "Dictionary form: 読む（よむ）"
+        }
+      ]
+    },
+    {
+      "lesson": "u10-l2",
+      "title": "て form II",
+      "items": [
+        {
+          "id": "g.hanashite",
+          "jp": "話して",
+          "kana": "はなして",
+          "romaji": "hanashite",
+          "en": [
+            "speak (te-form)",
+            "talk (te-form)"
+          ],
+          "audioText": "はなして",
+          "type": "word",
+          "emoji": "🗣️",
+          "note": "Dictionary form: 話す（はなす）"
+        },
+        {
+          "id": "g.katte",
+          "jp": "買って",
+          "kana": "かって",
+          "romaji": "katte",
+          "en": [
+            "buy (te-form)"
+          ],
+          "audioText": "かって",
+          "type": "word",
+          "emoji": "🛍️",
+          "note": "Dictionary form: 買う（かう）"
+        },
+        {
+          "id": "g.matte",
+          "jp": "待って",
+          "kana": "まって",
+          "romaji": "matte",
+          "en": [
+            "wait (te-form)"
+          ],
+          "audioText": "まって",
+          "type": "word",
+          "emoji": "⏳",
+          "note": "Dictionary form: 待つ（まつ）"
+        },
+        {
+          "id": "g.asonde",
+          "jp": "遊んで",
+          "kana": "あそんで",
+          "romaji": "asonde",
+          "en": [
+            "play (te-form)",
+            "hang out (te-form)"
+          ],
+          "audioText": "あそんで",
+          "type": "word",
+          "emoji": "🎮",
+          "note": "Dictionary form: 遊ぶ（あそぶ）"
+        },
+        {
+          "id": "g.shite",
+          "jp": "して",
+          "kana": "して",
+          "romaji": "shite",
+          "en": [
+            "do (te-form)"
+          ],
+          "audioText": "して",
+          "type": "word",
+          "emoji": "✅",
+          "note": "Dictionary form: する（する）"
+        },
+        {
+          "id": "g.okite",
+          "jp": "起きて",
+          "kana": "おきて",
+          "romaji": "okite",
+          "en": [
+            "wake up (te-form)",
+            "get up (te-form)"
+          ],
+          "audioText": "おきて",
+          "type": "word",
+          "emoji": "⏰",
+          "note": "Dictionary form: 起きる（おきる）"
+        },
+        {
+          "id": "g.kiite",
+          "jp": "聞いて",
+          "kana": "きいて",
+          "romaji": "kiite",
+          "en": [
+            "listen (te-form)",
+            "hear (te-form)",
+            "ask (te-form)"
+          ],
+          "audioText": "きいて",
+          "type": "word",
+          "emoji": "👂",
+          "note": "Dictionary form: 聞く（きく）"
+        }
+      ]
+    },
+    {
+      "lesson": "u10-l3",
+      "title": "Please…",
+      "items": [
+        {
+          "id": "gs.chottomattekudasai",
+          "jp": "ちょっと待ってください",
+          "kana": "ちょっとまってください",
+          "romaji": "chotto matte kudasai",
+          "en": [
+            "please wait a moment",
+            "wait a moment please"
+          ],
+          "audioText": "ちょっと待ってください",
+          "type": "sentence",
+          "tokens": [
+            "ちょっと",
+            "待って|まって",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.yukkurihanashitekudasai",
+          "jp": "ゆっくり話してください",
+          "kana": "ゆっくりはなしてください",
+          "romaji": "yukkuri hanashite kudasai",
+          "en": [
+            "please speak slowly"
+          ],
+          "audioText": "ゆっくり話してください",
+          "type": "sentence",
+          "tokens": [
+            "ゆっくり",
+            "話して|はなして",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.mouichidoittekudasai",
+          "jp": "もう一度言ってください",
+          "kana": "もういちどいってください",
+          "romaji": "mou ichido itte kudasai",
+          "en": [
+            "please say it again"
+          ],
+          "audioText": "もう一度言ってください",
+          "type": "sentence",
+          "tokens": [
+            "もう",
+            "一度|いちど",
+            "言って|いって",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.kokonikaitekudasai",
+          "jp": "ここに書いてください",
+          "kana": "ここにかいてください",
+          "romaji": "koko ni kaite kudasai",
+          "en": [
+            "please write here",
+            "please write it here"
+          ],
+          "audioText": "ここに書いてください",
+          "type": "sentence",
+          "tokens": [
+            "ここ",
+            "に",
+            "書いて|かいて",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.mitekudasai",
+          "jp": "見てください",
+          "kana": "みてください",
+          "romaji": "mite kudasai",
+          "en": [
+            "please look"
+          ],
+          "audioText": "見てください",
+          "type": "sentence",
+          "tokens": [
+            "見て|みて",
+            "ください"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u10-l4",
+      "title": "What's happening",
+      "items": [
+        {
+          "id": "gs.imatabeteimasu",
+          "jp": "今食べています",
+          "kana": "いまたべています",
+          "romaji": "ima tabete imasu",
+          "en": [
+            "I'm eating now",
+            "I am eating now"
+          ],
+          "audioText": "今食べています",
+          "type": "sentence",
+          "tokens": [
+            "今|いま",
+            "食べて|たべて",
+            "います"
+          ]
+        },
+        {
+          "id": "gs.amegafutteimasu",
+          "jp": "雨が降っています",
+          "kana": "あめがふっています",
+          "romaji": "ame ga futte imasu",
+          "en": [
+            "it's raining",
+            "it is raining"
+          ],
+          "audioText": "雨が降っています",
+          "type": "sentence",
+          "tokens": [
+            "雨|あめ",
+            "が",
+            "降って|ふって",
+            "います"
+          ]
+        },
+        {
+          "id": "gs.toukyounisundeimasu",
+          "jp": "東京に住んでいます",
+          "kana": "とうきょうにすんでいます",
+          "romaji": "toukyou ni sunde imasu",
+          "en": [
+            "I live in Tokyo"
+          ],
+          "audioText": "東京に住んでいます",
+          "type": "sentence",
+          "tokens": [
+            "東京|とうきょう",
+            "に",
+            "住んで|すんで",
+            "います"
+          ]
+        },
+        {
+          "id": "gs.nihongoobenkyoushiteimasu",
+          "jp": "日本語を勉強しています",
+          "kana": "にほんごをべんきょうしています",
+          "romaji": "nihongo o benkyoushite imasu",
+          "en": [
+            "I'm studying Japanese",
+            "I am studying Japanese"
+          ],
+          "audioText": "日本語を勉強しています",
+          "type": "sentence",
+          "tokens": [
+            "日本語|にほんご",
+            "を",
+            "勉強して|べんきょうして",
+            "います"
+          ]
+        },
+        {
+          "id": "gs.nanioshiteimasuka",
+          "jp": "何をしていますか",
+          "kana": "なにをしていますか",
+          "romaji": "nani o shite imasu ka",
+          "en": [
+            "what are you doing"
+          ],
+          "audioText": "何をしていますか",
+          "type": "sentence",
+          "tokens": [
+            "何|なに",
+            "を",
+            "して",
+            "います",
+            "か"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u10-l5",
+      "title": "May I…?",
+      "items": [
+        {
+          "id": "gs.shashinotottemoiidesuka",
+          "jp": "写真を撮ってもいいですか",
+          "kana": "しゃしんをとってもいいですか",
+          "romaji": "shashin o totte mo ii desu ka",
+          "en": [
+            "may I take a photo",
+            "can I take a picture"
+          ],
+          "audioText": "写真を撮ってもいいですか",
+          "type": "sentence",
+          "tokens": [
+            "写真|しゃしん",
+            "を",
+            "撮って|とって",
+            "も",
+            "いい",
+            "です",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.kokodetabetewaikemasen",
+          "jp": "ここで食べてはいけません",
+          "kana": "ここでたべてはいけません",
+          "romaji": "koko de tabete wa ikemasen",
+          "en": [
+            "you must not eat here",
+            "you cannot eat here"
+          ],
+          "audioText": "ここで食べてはいけません",
+          "type": "sentence",
+          "tokens": [
+            "ここ",
+            "で",
+            "食べて|たべて",
+            "は",
+            "いけません"
+          ]
+        },
+        {
+          "id": "gs.haittemoiidesuka",
+          "jp": "入ってもいいですか",
+          "kana": "はいってもいいですか",
+          "romaji": "haitte mo ii desu ka",
+          "en": [
+            "may I come in",
+            "can I come in"
+          ],
+          "audioText": "入ってもいいですか",
+          "type": "sentence",
+          "tokens": [
+            "入って|はいって",
+            "も",
+            "いい",
+            "です",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.haidouzo",
+          "jp": "はいどうぞ",
+          "kana": "はいどうぞ",
+          "romaji": "hai douzo",
+          "en": [
+            "yes, go ahead",
+            "yes, please"
+          ],
+          "audioText": "はいどうぞ",
+          "type": "sentence",
+          "tokens": [
+            "はい",
+            "どうぞ"
+          ]
+        }
+      ]
+    }
+  ]
+}

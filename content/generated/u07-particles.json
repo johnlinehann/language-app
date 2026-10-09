@@ -1,0 +1,411 @@
+{
+  "unit": "u07",
+  "title": "Particles",
+  "level": "N5",
+  "description": "The little words that glue Japanese sentences together.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u07-l1",
+      "title": "は が を の",
+      "items": [
+        {
+          "id": "p.wa",
+          "jp": "は",
+          "kana": "は",
+          "romaji": "wa",
+          "en": [
+            "topic marker",
+            "as for"
+          ],
+          "audioText": "わ",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.ga",
+          "jp": "が",
+          "kana": "が",
+          "romaji": "ga",
+          "en": [
+            "subject marker"
+          ],
+          "audioText": "が",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.o",
+          "jp": "を",
+          "kana": "を",
+          "romaji": "o",
+          "en": [
+            "object marker"
+          ],
+          "audioText": "お",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.no",
+          "jp": "の",
+          "kana": "の",
+          "romaji": "no",
+          "en": [
+            "'s (possessive)",
+            "of"
+          ],
+          "audioText": "の",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "gs.korewawatashinohondesu",
+          "jp": "これは私の本です",
+          "kana": "これはわたしのほんです",
+          "romaji": "kore wa watashi no hon desu",
+          "en": [
+            "this is my book"
+          ],
+          "audioText": "これは私の本です",
+          "type": "sentence",
+          "tokens": [
+            "これ",
+            "は",
+            "私|わたし",
+            "の",
+            "本|ほん",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.mizuonomimasu",
+          "jp": "水を飲みます",
+          "kana": "みずをのみます",
+          "romaji": "mizu o nomimasu",
+          "en": [
+            "I drink water"
+          ],
+          "audioText": "水を飲みます",
+          "type": "sentence",
+          "tokens": [
+            "水|みず",
+            "を",
+            "飲みます|のみます"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u07-l2",
+      "title": "に で へ",
+      "items": [
+        {
+          "id": "p.ni",
+          "jp": "に",
+          "kana": "に",
+          "romaji": "ni",
+          "en": [
+            "at (time)",
+            "to (place)"
+          ],
+          "audioText": "に",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.de",
+          "jp": "で",
+          "kana": "で",
+          "romaji": "de",
+          "en": [
+            "at (place of action)",
+            "by (means)"
+          ],
+          "audioText": "で",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.e",
+          "jp": "へ",
+          "kana": "へ",
+          "romaji": "e",
+          "en": [
+            "toward",
+            "to"
+          ],
+          "audioText": "え",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "gs.shichijiniokimasu",
+          "jp": "七時に起きます",
+          "kana": "しちじにおきます",
+          "romaji": "shichiji ni okimasu",
+          "en": [
+            "I get up at seven"
+          ],
+          "audioText": "七時に起きます",
+          "type": "sentence",
+          "tokens": [
+            "七時|しちじ",
+            "に",
+            "起きます|おきます"
+          ]
+        },
+        {
+          "id": "gs.ekidemachimasu",
+          "jp": "駅で待ちます",
+          "kana": "えきでまちます",
+          "romaji": "eki de machimasu",
+          "en": [
+            "I wait at the station"
+          ],
+          "audioText": "駅で待ちます",
+          "type": "sentence",
+          "tokens": [
+            "駅|えき",
+            "で",
+            "待ちます|まちます"
+          ]
+        },
+        {
+          "id": "gs.nihoneikimasu",
+          "jp": "日本へ行きます",
+          "kana": "にほんへいきます",
+          "romaji": "nihon e ikimasu",
+          "en": [
+            "I go to Japan"
+          ],
+          "audioText": "日本へ行きます",
+          "type": "sentence",
+          "tokens": [
+            "日本|にほん",
+            "へ",
+            "行きます|いきます"
+          ]
+        },
+        {
+          "id": "gs.basudeikimasu",
+          "jp": "バスで行きます",
+          "kana": "バスでいきます",
+          "romaji": "basu de ikimasu",
+          "en": [
+            "I go by bus"
+          ],
+          "audioText": "バスで行きます",
+          "type": "sentence",
+          "tokens": [
+            "バス",
+            "で",
+            "行きます|いきます"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u07-l3",
+      "title": "と も か",
+      "items": [
+        {
+          "id": "p.to",
+          "jp": "と",
+          "kana": "と",
+          "romaji": "to",
+          "en": [
+            "and",
+            "with"
+          ],
+          "audioText": "と",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.mo",
+          "jp": "も",
+          "kana": "も",
+          "romaji": "mo",
+          "en": [
+            "also",
+            "too"
+          ],
+          "audioText": "も",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.ka",
+          "jp": "か",
+          "kana": "か",
+          "romaji": "ka",
+          "en": [
+            "question marker"
+          ],
+          "audioText": "か",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "gs.tomodachitoikimasu",
+          "jp": "友達と行きます",
+          "kana": "ともだちといきます",
+          "romaji": "tomodachi to ikimasu",
+          "en": [
+            "I go with a friend"
+          ],
+          "audioText": "友達と行きます",
+          "type": "sentence",
+          "tokens": [
+            "友達|ともだち",
+            "と",
+            "行きます|いきます"
+          ]
+        },
+        {
+          "id": "gs.watashimogakuseidesu",
+          "jp": "私も学生です",
+          "kana": "わたしもがくせいです",
+          "romaji": "watashi mo gakusei desu",
+          "en": [
+            "I am a student too",
+            "I am also a student"
+          ],
+          "audioText": "私も学生です",
+          "type": "sentence",
+          "tokens": [
+            "私|わたし",
+            "も",
+            "学生|がくせい",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.pantotamago",
+          "jp": "パンと卵",
+          "kana": "パンとたまご",
+          "romaji": "pan to tamago",
+          "en": [
+            "bread and eggs"
+          ],
+          "audioText": "パンと卵",
+          "type": "sentence",
+          "tokens": [
+            "パン",
+            "と",
+            "卵|たまご"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u07-l4",
+      "title": "から まで ね よ",
+      "items": [
+        {
+          "id": "p.kara",
+          "jp": "から",
+          "kana": "から",
+          "romaji": "kara",
+          "en": [
+            "from"
+          ],
+          "audioText": "から",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.made",
+          "jp": "まで",
+          "kana": "まで",
+          "romaji": "made",
+          "en": [
+            "until",
+            "to"
+          ],
+          "audioText": "まで",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.ne",
+          "jp": "ね",
+          "kana": "ね",
+          "romaji": "ne",
+          "en": [
+            "isn't it",
+            "right"
+          ],
+          "audioText": "ね",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "p.yo",
+          "jp": "よ",
+          "kana": "よ",
+          "romaji": "yo",
+          "en": [
+            "you know (emphasis)"
+          ],
+          "audioText": "よ",
+          "type": "word",
+          "note": "Particle: comes after the word it marks."
+        },
+        {
+          "id": "gs.kujikaragojimadehatarakimasu",
+          "jp": "九時から五時まで働きます",
+          "kana": "くじからごじまではたらきます",
+          "romaji": "kuji kara goji made hatarakimasu",
+          "en": [
+            "I work from nine to five"
+          ],
+          "audioText": "九時から五時まで働きます",
+          "type": "sentence",
+          "tokens": [
+            "九時|くじ",
+            "から",
+            "五時|ごじ",
+            "まで",
+            "働きます|はたらきます"
+          ]
+        },
+        {
+          "id": "gs.iitenkidesune",
+          "jp": "いい天気ですね",
+          "kana": "いいてんきですね",
+          "romaji": "ii tenki desu ne",
+          "en": [
+            "it's nice weather, isn't it",
+            "nice weather, isn't it"
+          ],
+          "audioText": "いい天気ですね",
+          "type": "sentence",
+          "tokens": [
+            "いい",
+            "天気|てんき",
+            "です",
+            "ね"
+          ]
+        },
+        {
+          "id": "gs.oishiidesuyo",
+          "jp": "おいしいですよ",
+          "kana": "おいしいですよ",
+          "romaji": "oishii desu yo",
+          "en": [
+            "it's delicious, you know"
+          ],
+          "audioText": "おいしいですよ",
+          "type": "sentence",
+          "tokens": [
+            "おいしい",
+            "です",
+            "よ"
+          ]
+        }
+      ]
+    }
+  ]
+}

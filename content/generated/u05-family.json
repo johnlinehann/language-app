@@ -1,0 +1,480 @@
+{
+  "unit": "u05",
+  "title": "Family",
+  "level": "N5",
+  "description": "Talk about your family, friends and pets.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u05-l1",
+      "title": "My family",
+      "items": [
+        {
+          "id": "g.kazoku",
+          "jp": "家族",
+          "kana": "かぞく",
+          "romaji": "kazoku",
+          "en": [
+            "family"
+          ],
+          "audioText": "かぞく",
+          "type": "word",
+          "emoji": "👨‍👩‍👧",
+          "strokes": [
+            "家",
+            "族"
+          ]
+        },
+        {
+          "id": "g.chichi",
+          "jp": "父",
+          "kana": "ちち",
+          "romaji": "chichi",
+          "en": [
+            "my father",
+            "father"
+          ],
+          "audioText": "ちち",
+          "type": "kanji",
+          "emoji": "👨",
+          "strokes": [
+            "父"
+          ]
+        },
+        {
+          "id": "g.haha",
+          "jp": "母",
+          "kana": "はは",
+          "romaji": "haha",
+          "en": [
+            "my mother",
+            "mother"
+          ],
+          "audioText": "はは",
+          "type": "kanji",
+          "emoji": "👩",
+          "strokes": [
+            "母"
+          ]
+        },
+        {
+          "id": "g.ani",
+          "jp": "兄",
+          "kana": "あに",
+          "romaji": "ani",
+          "en": [
+            "my older brother",
+            "older brother"
+          ],
+          "audioText": "あに",
+          "type": "kanji",
+          "strokes": [
+            "兄"
+          ]
+        },
+        {
+          "id": "g.ane",
+          "jp": "姉",
+          "kana": "あね",
+          "romaji": "ane",
+          "en": [
+            "my older sister",
+            "older sister"
+          ],
+          "audioText": "あね",
+          "type": "kanji",
+          "strokes": [
+            "姉"
+          ]
+        },
+        {
+          "id": "g.otouto",
+          "jp": "弟",
+          "kana": "おとうと",
+          "romaji": "otouto",
+          "en": [
+            "younger brother"
+          ],
+          "audioText": "おとうと",
+          "type": "kanji",
+          "strokes": [
+            "弟"
+          ]
+        },
+        {
+          "id": "g.imouto",
+          "jp": "妹",
+          "kana": "いもうと",
+          "romaji": "imouto",
+          "en": [
+            "younger sister"
+          ],
+          "audioText": "いもうと",
+          "type": "kanji",
+          "strokes": [
+            "妹"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u05-l2",
+      "title": "Someone's family",
+      "items": [
+        {
+          "id": "g.otousan",
+          "jp": "お父さん",
+          "kana": "おとうさん",
+          "romaji": "otousan",
+          "en": [
+            "father",
+            "dad"
+          ],
+          "audioText": "おとうさん",
+          "type": "word"
+        },
+        {
+          "id": "g.okaasan",
+          "jp": "お母さん",
+          "kana": "おかあさん",
+          "romaji": "okaasan",
+          "en": [
+            "mother",
+            "mom"
+          ],
+          "audioText": "おかあさん",
+          "type": "word"
+        },
+        {
+          "id": "g.oniisan",
+          "jp": "お兄さん",
+          "kana": "おにいさん",
+          "romaji": "oniisan",
+          "en": [
+            "older brother"
+          ],
+          "audioText": "おにいさん",
+          "type": "word"
+        },
+        {
+          "id": "g.oneesan",
+          "jp": "お姉さん",
+          "kana": "おねえさん",
+          "romaji": "oneesan",
+          "en": [
+            "older sister"
+          ],
+          "audioText": "おねえさん",
+          "type": "word"
+        },
+        {
+          "id": "g.kodomo",
+          "jp": "子供",
+          "kana": "こども",
+          "romaji": "kodomo",
+          "en": [
+            "child",
+            "children"
+          ],
+          "audioText": "こども",
+          "type": "word",
+          "emoji": "🧒",
+          "strokes": [
+            "子",
+            "供"
+          ]
+        },
+        {
+          "id": "g.tomodachi",
+          "jp": "友達",
+          "kana": "ともだち",
+          "romaji": "tomodachi",
+          "en": [
+            "friend"
+          ],
+          "audioText": "ともだち",
+          "type": "word",
+          "emoji": "🧑‍🤝‍🧑",
+          "strokes": [
+            "友",
+            "達"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u05-l3",
+      "title": "People & pets",
+      "items": [
+        {
+          "id": "g.otoko",
+          "jp": "男",
+          "kana": "おとこ",
+          "romaji": "otoko",
+          "en": [
+            "man",
+            "male"
+          ],
+          "audioText": "おとこ",
+          "type": "kanji",
+          "emoji": "👨",
+          "strokes": [
+            "男"
+          ]
+        },
+        {
+          "id": "g.onna",
+          "jp": "女",
+          "kana": "おんな",
+          "romaji": "onna",
+          "en": [
+            "woman",
+            "female"
+          ],
+          "audioText": "おんな",
+          "type": "kanji",
+          "emoji": "👩",
+          "strokes": [
+            "女"
+          ]
+        },
+        {
+          "id": "g.hito",
+          "jp": "人",
+          "kana": "ひと",
+          "romaji": "hito",
+          "en": [
+            "person"
+          ],
+          "audioText": "ひと",
+          "type": "kanji",
+          "emoji": "🧍"
+        },
+        {
+          "id": "g.akachan",
+          "jp": "赤ちゃん",
+          "kana": "あかちゃん",
+          "romaji": "akachan",
+          "en": [
+            "baby"
+          ],
+          "audioText": "あかちゃん",
+          "type": "word",
+          "emoji": "👶",
+          "strokes": [
+            "赤"
+          ]
+        },
+        {
+          "id": "g.inu",
+          "jp": "犬",
+          "kana": "いぬ",
+          "romaji": "inu",
+          "en": [
+            "dog"
+          ],
+          "audioText": "いぬ",
+          "type": "kanji",
+          "emoji": "🐕",
+          "strokes": [
+            "犬"
+          ]
+        },
+        {
+          "id": "g.neko",
+          "jp": "猫",
+          "kana": "ねこ",
+          "romaji": "neko",
+          "en": [
+            "cat"
+          ],
+          "audioText": "ねこ",
+          "type": "kanji",
+          "emoji": "🐈",
+          "strokes": [
+            "猫"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u05-l4",
+      "title": "How many people?",
+      "items": [
+        {
+          "id": "g.hitori",
+          "jp": "一人",
+          "kana": "ひとり",
+          "romaji": "hitori",
+          "en": [
+            "one person",
+            "alone"
+          ],
+          "audioText": "ひとり",
+          "type": "word"
+        },
+        {
+          "id": "g.futari",
+          "jp": "二人",
+          "kana": "ふたり",
+          "romaji": "futari",
+          "en": [
+            "two people"
+          ],
+          "audioText": "ふたり",
+          "type": "word"
+        },
+        {
+          "id": "g.sannin",
+          "jp": "三人",
+          "kana": "さんにん",
+          "romaji": "sannin",
+          "en": [
+            "three people"
+          ],
+          "audioText": "さんにん",
+          "type": "word"
+        },
+        {
+          "id": "g.nannin",
+          "jp": "何人",
+          "kana": "なんにん",
+          "romaji": "nannin",
+          "en": [
+            "how many people"
+          ],
+          "audioText": "なんにん",
+          "type": "word"
+        },
+        {
+          "id": "gs.kazokuwayonindesu",
+          "jp": "家族は四人です",
+          "kana": "かぞくはよにんです",
+          "romaji": "kazoku wa yonin desu",
+          "en": [
+            "my family has four people",
+            "there are four people in my family"
+          ],
+          "audioText": "家族は四人です",
+          "type": "sentence",
+          "tokens": [
+            "家族|かぞく",
+            "は",
+            "四人|よにん",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.anigafutariimasu",
+          "jp": "兄が二人います",
+          "kana": "あにがふたりいます",
+          "romaji": "ani ga futari imasu",
+          "en": [
+            "I have two older brothers"
+          ],
+          "audioText": "兄が二人います",
+          "type": "sentence",
+          "tokens": [
+            "兄|あに",
+            "が",
+            "二人|ふたり",
+            "います"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u05-l5",
+      "title": "This is my mother",
+      "items": [
+        {
+          "id": "gs.korewawatashinohahadesu",
+          "jp": "これは私の母です",
+          "kana": "これはわたしのははです",
+          "romaji": "kore wa watashi no haha desu",
+          "en": [
+            "this is my mother"
+          ],
+          "audioText": "これは私の母です",
+          "type": "sentence",
+          "tokens": [
+            "これ",
+            "は",
+            "私|わたし",
+            "の",
+            "母|はは",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.inugaimasu",
+          "jp": "犬がいます",
+          "kana": "いぬがいます",
+          "romaji": "inu ga imasu",
+          "en": [
+            "there is a dog",
+            "I have a dog"
+          ],
+          "audioText": "犬がいます",
+          "type": "sentence",
+          "tokens": [
+            "犬|いぬ",
+            "が",
+            "います"
+          ]
+        },
+        {
+          "id": "gs.nekogasukidesu",
+          "jp": "猫が好きです",
+          "kana": "ねこがすきです",
+          "romaji": "neko ga suki desu",
+          "en": [
+            "I like cats"
+          ],
+          "audioText": "猫が好きです",
+          "type": "sentence",
+          "tokens": [
+            "猫|ねこ",
+            "が",
+            "好き|すき",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.tomodachitoasobimasu",
+          "jp": "友達と遊びます",
+          "kana": "ともだちとあそびます",
+          "romaji": "tomodachi to asobimasu",
+          "en": [
+            "I hang out with friends",
+            "I play with my friend"
+          ],
+          "audioText": "友達と遊びます",
+          "type": "sentence",
+          "tokens": [
+            "友達|ともだち",
+            "と",
+            "遊びます|あそびます"
+          ]
+        },
+        {
+          "id": "gs.imoutowagakuseidesu",
+          "jp": "妹は学生です",
+          "kana": "いもうとはがくせいです",
+          "romaji": "imouto wa gakusei desu",
+          "en": [
+            "my younger sister is a student"
+          ],
+          "audioText": "妹は学生です",
+          "type": "sentence",
+          "tokens": [
+            "妹|いもうと",
+            "は",
+            "学生|がくせい",
+            "です"
+          ]
+        }
+      ]
+    }
+  ]
+}

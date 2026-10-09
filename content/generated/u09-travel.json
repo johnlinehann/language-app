@@ -1,0 +1,544 @@
+{
+  "unit": "u09",
+  "title": "Travel",
+  "level": "N5",
+  "description": "Get around: stations, tickets, directions and hotels.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u09-l1",
+      "title": "Places",
+      "items": [
+        {
+          "id": "g.eki",
+          "jp": "駅",
+          "kana": "えき",
+          "romaji": "eki",
+          "en": [
+            "station"
+          ],
+          "audioText": "えき",
+          "type": "kanji",
+          "emoji": "🚉",
+          "strokes": [
+            "駅"
+          ]
+        },
+        {
+          "id": "g.kuukou",
+          "jp": "空港",
+          "kana": "くうこう",
+          "romaji": "kuukou",
+          "en": [
+            "airport"
+          ],
+          "audioText": "くうこう",
+          "type": "word",
+          "emoji": "🛫",
+          "strokes": [
+            "空",
+            "港"
+          ]
+        },
+        {
+          "id": "g.hoteru",
+          "jp": "ホテル",
+          "kana": "ホテル",
+          "romaji": "hoteru",
+          "en": [
+            "hotel"
+          ],
+          "audioText": "ホテル",
+          "type": "word",
+          "emoji": "🏨"
+        },
+        {
+          "id": "g.ginkou",
+          "jp": "銀行",
+          "kana": "ぎんこう",
+          "romaji": "ginkou",
+          "en": [
+            "bank"
+          ],
+          "audioText": "ぎんこう",
+          "type": "word",
+          "emoji": "🏦",
+          "strokes": [
+            "銀"
+          ]
+        },
+        {
+          "id": "g.byouin",
+          "jp": "病院",
+          "kana": "びょういん",
+          "romaji": "byouin",
+          "en": [
+            "hospital"
+          ],
+          "audioText": "びょういん",
+          "type": "word",
+          "emoji": "🏥",
+          "strokes": [
+            "病",
+            "院"
+          ]
+        },
+        {
+          "id": "g.toire",
+          "jp": "トイレ",
+          "kana": "トイレ",
+          "romaji": "toire",
+          "en": [
+            "toilet",
+            "restroom",
+            "bathroom"
+          ],
+          "audioText": "トイレ",
+          "type": "word",
+          "emoji": "🚻"
+        },
+        {
+          "id": "g.mise",
+          "jp": "店",
+          "kana": "みせ",
+          "romaji": "mise",
+          "en": [
+            "shop",
+            "store"
+          ],
+          "audioText": "みせ",
+          "type": "kanji",
+          "emoji": "🏪",
+          "strokes": [
+            "店"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u09-l2",
+      "title": "Getting around",
+      "items": [
+        {
+          "id": "g.densha",
+          "jp": "電車",
+          "kana": "でんしゃ",
+          "romaji": "densha",
+          "en": [
+            "train"
+          ],
+          "audioText": "でんしゃ",
+          "type": "word",
+          "emoji": "🚃",
+          "strokes": [
+            "電",
+            "車"
+          ]
+        },
+        {
+          "id": "g.basu",
+          "jp": "バス",
+          "kana": "バス",
+          "romaji": "basu",
+          "en": [
+            "bus"
+          ],
+          "audioText": "バス",
+          "type": "word",
+          "emoji": "🚌"
+        },
+        {
+          "id": "g.kuruma",
+          "jp": "車",
+          "kana": "くるま",
+          "romaji": "kuruma",
+          "en": [
+            "car"
+          ],
+          "audioText": "くるま",
+          "type": "kanji",
+          "emoji": "🚗"
+        },
+        {
+          "id": "g.jitensha",
+          "jp": "自転車",
+          "kana": "じてんしゃ",
+          "romaji": "jitensha",
+          "en": [
+            "bicycle",
+            "bike"
+          ],
+          "audioText": "じてんしゃ",
+          "type": "word",
+          "emoji": "🚲",
+          "strokes": [
+            "自",
+            "転"
+          ]
+        },
+        {
+          "id": "g.hikouki",
+          "jp": "飛行機",
+          "kana": "ひこうき",
+          "romaji": "hikouki",
+          "en": [
+            "airplane",
+            "plane"
+          ],
+          "audioText": "ひこうき",
+          "type": "word",
+          "emoji": "✈️",
+          "strokes": [
+            "飛",
+            "機"
+          ]
+        },
+        {
+          "id": "g.kippu",
+          "jp": "切符",
+          "kana": "きっぷ",
+          "romaji": "kippu",
+          "en": [
+            "ticket"
+          ],
+          "audioText": "きっぷ",
+          "type": "word",
+          "emoji": "🎫",
+          "strokes": [
+            "切",
+            "符"
+          ]
+        },
+        {
+          "id": "g.chizu",
+          "jp": "地図",
+          "kana": "ちず",
+          "romaji": "chizu",
+          "en": [
+            "map"
+          ],
+          "audioText": "ちず",
+          "type": "word",
+          "emoji": "🗺️",
+          "strokes": [
+            "地",
+            "図"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u09-l3",
+      "title": "Directions",
+      "items": [
+        {
+          "id": "g.migi",
+          "jp": "右",
+          "kana": "みぎ",
+          "romaji": "migi",
+          "en": [
+            "right"
+          ],
+          "audioText": "みぎ",
+          "type": "kanji",
+          "emoji": "👉",
+          "strokes": [
+            "右"
+          ]
+        },
+        {
+          "id": "g.hidari",
+          "jp": "左",
+          "kana": "ひだり",
+          "romaji": "hidari",
+          "en": [
+            "left"
+          ],
+          "audioText": "ひだり",
+          "type": "kanji",
+          "emoji": "👈",
+          "strokes": [
+            "左"
+          ]
+        },
+        {
+          "id": "g.massugu",
+          "jp": "まっすぐ",
+          "kana": "まっすぐ",
+          "romaji": "massugu",
+          "en": [
+            "straight ahead",
+            "straight"
+          ],
+          "audioText": "まっすぐ",
+          "type": "word",
+          "emoji": "⬆️"
+        },
+        {
+          "id": "g.koko",
+          "jp": "ここ",
+          "kana": "ここ",
+          "romaji": "koko",
+          "en": [
+            "here"
+          ],
+          "audioText": "ここ",
+          "type": "word",
+          "emoji": "📍"
+        },
+        {
+          "id": "g.soko",
+          "jp": "そこ",
+          "kana": "そこ",
+          "romaji": "soko",
+          "en": [
+            "there"
+          ],
+          "audioText": "そこ",
+          "type": "word"
+        },
+        {
+          "id": "g.asoko",
+          "jp": "あそこ",
+          "kana": "あそこ",
+          "romaji": "asoko",
+          "en": [
+            "over there"
+          ],
+          "audioText": "あそこ",
+          "type": "word"
+        },
+        {
+          "id": "g.doko",
+          "jp": "どこ",
+          "kana": "どこ",
+          "romaji": "doko",
+          "en": [
+            "where"
+          ],
+          "audioText": "どこ",
+          "type": "word",
+          "emoji": "❓"
+        }
+      ]
+    },
+    {
+      "lesson": "u09-l4",
+      "title": "Where is…?",
+      "items": [
+        {
+          "id": "gs.ekiwadokodesuka",
+          "jp": "駅はどこですか",
+          "kana": "えきはどこですか",
+          "romaji": "eki wa doko desu ka",
+          "en": [
+            "where is the station"
+          ],
+          "audioText": "駅はどこですか",
+          "type": "sentence",
+          "tokens": [
+            "駅|えき",
+            "は",
+            "どこ",
+            "です",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.toirewadokodesuka",
+          "jp": "トイレはどこですか",
+          "kana": "トイレはどこですか",
+          "romaji": "toire wa doko desu ka",
+          "en": [
+            "where is the toilet",
+            "where is the restroom"
+          ],
+          "audioText": "トイレはどこですか",
+          "type": "sentence",
+          "tokens": [
+            "トイレ",
+            "は",
+            "どこ",
+            "です",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.massuguittekudasai",
+          "jp": "まっすぐ行ってください",
+          "kana": "まっすぐいってください",
+          "romaji": "massugu itte kudasai",
+          "en": [
+            "please go straight",
+            "go straight please"
+          ],
+          "audioText": "まっすぐ行ってください",
+          "type": "sentence",
+          "tokens": [
+            "まっすぐ",
+            "行って|いって",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.miginiarimasu",
+          "jp": "右にあります",
+          "kana": "みぎにあります",
+          "romaji": "migi ni arimasu",
+          "en": [
+            "it's on the right",
+            "it is on the right"
+          ],
+          "audioText": "右にあります",
+          "type": "sentence",
+          "tokens": [
+            "右|みぎ",
+            "に",
+            "あります"
+          ]
+        },
+        {
+          "id": "gs.kippuoichimaikudasai",
+          "jp": "切符を一枚ください",
+          "kana": "きっぷをいちまいください",
+          "romaji": "kippu o ichimai kudasai",
+          "en": [
+            "one ticket, please",
+            "one ticket please"
+          ],
+          "audioText": "切符を一枚ください",
+          "type": "sentence",
+          "tokens": [
+            "切符|きっぷ",
+            "を",
+            "一枚|いちまい",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.toukyoumadeikuradesuka",
+          "jp": "東京までいくらですか",
+          "kana": "とうきょうまでいくらですか",
+          "romaji": "toukyou made ikura desu ka",
+          "en": [
+            "how much is it to Tokyo"
+          ],
+          "audioText": "東京までいくらですか",
+          "type": "sentence",
+          "tokens": [
+            "東京|とうきょう",
+            "まで",
+            "いくら",
+            "です",
+            "か"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u09-l5",
+      "title": "At the hotel",
+      "items": [
+        {
+          "id": "g.yoyaku",
+          "jp": "予約",
+          "kana": "よやく",
+          "romaji": "yoyaku",
+          "en": [
+            "reservation",
+            "booking"
+          ],
+          "audioText": "よやく",
+          "type": "word",
+          "emoji": "📅",
+          "strokes": [
+            "予",
+            "約"
+          ]
+        },
+        {
+          "id": "g.heya",
+          "jp": "部屋",
+          "kana": "へや",
+          "romaji": "heya",
+          "en": [
+            "room"
+          ],
+          "audioText": "へや",
+          "type": "word",
+          "emoji": "🛏️",
+          "strokes": [
+            "部",
+            "屋"
+          ]
+        },
+        {
+          "id": "g.kagi",
+          "jp": "鍵",
+          "kana": "かぎ",
+          "romaji": "kagi",
+          "en": [
+            "key"
+          ],
+          "audioText": "かぎ",
+          "type": "kanji",
+          "emoji": "🔑",
+          "strokes": [
+            "鍵"
+          ]
+        },
+        {
+          "id": "g.nimotsu",
+          "jp": "荷物",
+          "kana": "にもつ",
+          "romaji": "nimotsu",
+          "en": [
+            "luggage",
+            "baggage"
+          ],
+          "audioText": "にもつ",
+          "type": "word",
+          "emoji": "🧳",
+          "strokes": [
+            "荷",
+            "物"
+          ]
+        },
+        {
+          "id": "gs.yoyakugaarimasu",
+          "jp": "予約があります",
+          "kana": "よやくがあります",
+          "romaji": "yoyaku ga arimasu",
+          "en": [
+            "I have a reservation"
+          ],
+          "audioText": "予約があります",
+          "type": "sentence",
+          "tokens": [
+            "予約|よやく",
+            "が",
+            "あります"
+          ]
+        },
+        {
+          "id": "gs.chekkuinoonegaishimasu",
+          "jp": "チェックインをお願いします",
+          "kana": "チェックインをおねがいします",
+          "romaji": "chekkuin o onegai shimasu",
+          "en": [
+            "check-in, please",
+            "I would like to check in"
+          ],
+          "audioText": "チェックインをお願いします",
+          "type": "sentence",
+          "tokens": [
+            "チェックイン",
+            "を",
+            "お願い|おねがい",
+            "します"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE JMdict [
+<!ENTITY v1 "Ichidan verb">
+<!ENTITY v5k-s "Godan verb - Iku/Yuku special class">
+<!ENTITY v5r "Godan verb with 'ru' ending">
+<!ENTITY n "noun (common) (futsuumeishi)">
+]>
+<JMdict>
+<entry>
+<ent_seq>1358280</ent_seq>
+<k_ele>
+<keb>食べる</keb>
+<ke_pri>ichi1</ke_pri>
+</k_ele>
+<r_ele>
+<reb>たべる</reb>
+<re_pri>ichi1</re_pri>
+</r_ele>
+<sense>
+<pos>&v1;</pos>
+<pos>&vt;</pos>
+<gloss>to eat</gloss>
+</sense>
+<sense>
+<gloss>to live on (e.g. a salary)</gloss>
+</sense>
+</entry>
+<entry>
+<ent_seq>1578850</ent_seq>
+<k_ele>
+<keb>行く</keb>
+<ke_pri>ichi1</ke_pri>
+</k_ele>
+<r_ele>
+<reb>いく</reb>
+</r_ele>
+<sense>
+<pos>&v5k-s;</pos>
+<gloss>to go</gloss>
+<gloss>to move (towards)</gloss>
+</sense>
+</entry>
+<entry>
+<ent_seq>1221270</ent_seq>
+<k_ele>
+<keb>帰る</keb>
+<ke_pri>news1</ke_pri>
+</k_ele>
+<r_ele>
+<reb>かえる</reb>
+</r_ele>
+<sense>
+<pos>&v5r;</pos>
+<gloss>to return</gloss>
+<gloss>to come home</gloss>
+<gloss>to go home</gloss>
+</sense>
+</entry>
+<entry>
+<ent_seq>1467640</ent_seq>
+<k_ele>
+<keb>猫</keb>
+<ke_pri>ichi1</ke_pri>
+</k_ele>
+<r_ele>
+<reb>ねこ</reb>
+</r_ele>
+<sense>
+<pos>&n;</pos>
+<gloss>cat</gloss>
+<gloss>domestic cat</gloss>
+</sense>
+</entry>
+</JMdict>

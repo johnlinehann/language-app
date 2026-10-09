@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kanjidic2>
+<character>
+<literal>猫</literal>
+<misc>
+<grade>8</grade>
+<stroke_count>11</stroke_count>
+<freq>1702</freq>
+<jlpt>2</jlpt>
+</misc>
+<reading_meaning><rmgroup><meaning>cat</meaning></rmgroup></reading_meaning>
+</character>
+<character>
+<literal>食</literal>
+<misc>
+<grade>2</grade>
+<stroke_count>9</stroke_count>
+<jlpt>4</jlpt>
+</misc>
+<reading_meaning><rmgroup><meaning>eat</meaning><meaning>food</meaning><meaning m_lang="fr">manger</meaning></rmgroup></reading_meaning>
+</character>
+</kanjidic2>

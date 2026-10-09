@@ -1,0 +1,564 @@
+{
+  "unit": "u08",
+  "title": "Adjectives",
+  "level": "N5",
+  "description": "Describe things with い- and な-adjectives.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u08-l1",
+      "title": "Big & small",
+      "items": [
+        {
+          "id": "g.ookii",
+          "jp": "大きい",
+          "kana": "おおきい",
+          "romaji": "ookii",
+          "en": [
+            "big",
+            "large"
+          ],
+          "audioText": "おおきい",
+          "type": "word",
+          "emoji": "🐘",
+          "strokes": [
+            "大"
+          ]
+        },
+        {
+          "id": "g.chiisai",
+          "jp": "小さい",
+          "kana": "ちいさい",
+          "romaji": "chiisai",
+          "en": [
+            "small",
+            "little"
+          ],
+          "audioText": "ちいさい",
+          "type": "word",
+          "emoji": "🐭",
+          "strokes": [
+            "小"
+          ]
+        },
+        {
+          "id": "g.takai",
+          "jp": "高い",
+          "kana": "たかい",
+          "romaji": "takai",
+          "en": [
+            "expensive",
+            "tall",
+            "high"
+          ],
+          "audioText": "たかい",
+          "type": "word",
+          "emoji": "💰",
+          "strokes": [
+            "高"
+          ]
+        },
+        {
+          "id": "g.yasui",
+          "jp": "安い",
+          "kana": "やすい",
+          "romaji": "yasui",
+          "en": [
+            "cheap",
+            "inexpensive"
+          ],
+          "audioText": "やすい",
+          "type": "word",
+          "emoji": "🏷️",
+          "strokes": [
+            "安"
+          ]
+        },
+        {
+          "id": "g.atarashii",
+          "jp": "新しい",
+          "kana": "あたらしい",
+          "romaji": "atarashii",
+          "en": [
+            "new"
+          ],
+          "audioText": "あたらしい",
+          "type": "word",
+          "emoji": "✨",
+          "strokes": [
+            "新"
+          ]
+        },
+        {
+          "id": "g.furui",
+          "jp": "古い",
+          "kana": "ふるい",
+          "romaji": "furui",
+          "en": [
+            "old"
+          ],
+          "audioText": "ふるい",
+          "type": "word",
+          "emoji": "🏚️",
+          "strokes": [
+            "古"
+          ]
+        },
+        {
+          "id": "g.ii",
+          "jp": "いい",
+          "kana": "いい",
+          "romaji": "ii",
+          "en": [
+            "good"
+          ],
+          "audioText": "いい",
+          "type": "word",
+          "emoji": "👍"
+        }
+      ]
+    },
+    {
+      "lesson": "u08-l2",
+      "title": "Hot & cold",
+      "items": [
+        {
+          "id": "g.atsui",
+          "jp": "暑い",
+          "kana": "あつい",
+          "romaji": "atsui",
+          "en": [
+            "hot (weather)"
+          ],
+          "audioText": "あつい",
+          "type": "word",
+          "emoji": "🥵",
+          "strokes": [
+            "暑"
+          ]
+        },
+        {
+          "id": "g.samui",
+          "jp": "寒い",
+          "kana": "さむい",
+          "romaji": "samui",
+          "en": [
+            "cold (weather)"
+          ],
+          "audioText": "さむい",
+          "type": "word",
+          "emoji": "🥶",
+          "strokes": [
+            "寒"
+          ]
+        },
+        {
+          "id": "g.tanoshii",
+          "jp": "楽しい",
+          "kana": "たのしい",
+          "romaji": "tanoshii",
+          "en": [
+            "fun",
+            "enjoyable"
+          ],
+          "audioText": "たのしい",
+          "type": "word",
+          "emoji": "🎉",
+          "strokes": [
+            "楽"
+          ]
+        },
+        {
+          "id": "g.muzukashii",
+          "jp": "難しい",
+          "kana": "むずかしい",
+          "romaji": "muzukashii",
+          "en": [
+            "difficult",
+            "hard"
+          ],
+          "audioText": "むずかしい",
+          "type": "word",
+          "emoji": "🧩",
+          "strokes": [
+            "難"
+          ]
+        },
+        {
+          "id": "g.yasashii",
+          "jp": "易しい",
+          "kana": "やさしい",
+          "romaji": "yasashii",
+          "en": [
+            "easy"
+          ],
+          "audioText": "やさしい",
+          "type": "word",
+          "emoji": "🍰",
+          "strokes": [
+            "易"
+          ]
+        },
+        {
+          "id": "g.isogashii",
+          "jp": "忙しい",
+          "kana": "いそがしい",
+          "romaji": "isogashii",
+          "en": [
+            "busy"
+          ],
+          "audioText": "いそがしい",
+          "type": "word",
+          "emoji": "🏃",
+          "strokes": [
+            "忙"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u08-l3",
+      "title": "な-adjectives",
+      "items": [
+        {
+          "id": "g.suki",
+          "jp": "好き",
+          "kana": "すき",
+          "romaji": "suki",
+          "en": [
+            "like",
+            "liked"
+          ],
+          "audioText": "すき",
+          "type": "word",
+          "emoji": "❤️",
+          "strokes": [
+            "好"
+          ]
+        },
+        {
+          "id": "g.kirai",
+          "jp": "嫌い",
+          "kana": "きらい",
+          "romaji": "kirai",
+          "en": [
+            "dislike",
+            "hate"
+          ],
+          "audioText": "きらい",
+          "type": "word",
+          "emoji": "👎",
+          "strokes": [
+            "嫌"
+          ]
+        },
+        {
+          "id": "g.shizuka",
+          "jp": "静か",
+          "kana": "しずか",
+          "romaji": "shizuka",
+          "en": [
+            "quiet"
+          ],
+          "audioText": "しずか",
+          "type": "word",
+          "emoji": "🤫",
+          "strokes": [
+            "静"
+          ]
+        },
+        {
+          "id": "g.genki",
+          "jp": "元気",
+          "kana": "げんき",
+          "romaji": "genki",
+          "en": [
+            "healthy",
+            "energetic",
+            "well"
+          ],
+          "audioText": "げんき",
+          "type": "word",
+          "emoji": "💪",
+          "strokes": [
+            "元",
+            "気"
+          ]
+        },
+        {
+          "id": "g.yuumei",
+          "jp": "有名",
+          "kana": "ゆうめい",
+          "romaji": "yuumei",
+          "en": [
+            "famous"
+          ],
+          "audioText": "ゆうめい",
+          "type": "word",
+          "emoji": "⭐",
+          "strokes": [
+            "有"
+          ]
+        },
+        {
+          "id": "g.benri",
+          "jp": "便利",
+          "kana": "べんり",
+          "romaji": "benri",
+          "en": [
+            "convenient"
+          ],
+          "audioText": "べんり",
+          "type": "word",
+          "emoji": "🔧",
+          "strokes": [
+            "便",
+            "利"
+          ]
+        },
+        {
+          "id": "g.kirei",
+          "jp": "きれい",
+          "kana": "きれい",
+          "romaji": "kirei",
+          "en": [
+            "pretty",
+            "clean",
+            "beautiful"
+          ],
+          "audioText": "きれい",
+          "type": "word",
+          "emoji": "🌸"
+        }
+      ]
+    },
+    {
+      "lesson": "u08-l4",
+      "title": "Describing",
+      "items": [
+        {
+          "id": "gs.konohonwatakaidesu",
+          "jp": "この本は高いです",
+          "kana": "このほんはたかいです",
+          "romaji": "kono hon wa takai desu",
+          "en": [
+            "this book is expensive"
+          ],
+          "audioText": "この本は高いです",
+          "type": "sentence",
+          "tokens": [
+            "この",
+            "本|ほん",
+            "は",
+            "高い|たかい",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.kyouwasamuidesu",
+          "jp": "今日は寒いです",
+          "kana": "きょうはさむいです",
+          "romaji": "kyou wa samui desu",
+          "en": [
+            "it's cold today",
+            "today is cold"
+          ],
+          "audioText": "今日は寒いです",
+          "type": "sentence",
+          "tokens": [
+            "今日|きょう",
+            "は",
+            "寒い|さむい",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.nihongowamuzukashiidesu",
+          "jp": "日本語は難しいです",
+          "kana": "にほんごはむずかしいです",
+          "romaji": "nihongo wa muzukashii desu",
+          "en": [
+            "Japanese is difficult"
+          ],
+          "audioText": "日本語は難しいです",
+          "type": "sentence",
+          "tokens": [
+            "日本語|にほんご",
+            "は",
+            "難しい|むずかしい",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.toukyouwaookiimachidesu",
+          "jp": "東京は大きい町です",
+          "kana": "とうきょうはおおきいまちです",
+          "romaji": "toukyou wa ookii machi desu",
+          "en": [
+            "Tokyo is a big city",
+            "Tokyo is a big town"
+          ],
+          "audioText": "東京は大きい町です",
+          "type": "sentence",
+          "tokens": [
+            "東京|とうきょう",
+            "は",
+            "大きい|おおきい",
+            "町|まち",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.konomachiwashizukadesu",
+          "jp": "この町は静かです",
+          "kana": "このまちはしずかです",
+          "romaji": "kono machi wa shizuka desu",
+          "en": [
+            "this town is quiet"
+          ],
+          "audioText": "この町は静かです",
+          "type": "sentence",
+          "tokens": [
+            "この",
+            "町|まち",
+            "は",
+            "静か|しずか",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.ogenkidesuka",
+          "jp": "お元気ですか",
+          "kana": "おげんきですか",
+          "romaji": "ogenki desu ka",
+          "en": [
+            "how are you",
+            "are you well"
+          ],
+          "audioText": "お元気ですか",
+          "type": "sentence",
+          "tokens": [
+            "お元気|おげんき",
+            "です",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.totemotanoshiidesu",
+          "jp": "とても楽しいです",
+          "kana": "とてもたのしいです",
+          "romaji": "totemo tanoshii desu",
+          "en": [
+            "it's very fun",
+            "it is very fun"
+          ],
+          "audioText": "とても楽しいです",
+          "type": "sentence",
+          "tokens": [
+            "とても",
+            "楽しい|たのしい",
+            "です"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u08-l5",
+      "title": "Not very",
+      "items": [
+        {
+          "id": "g.totemo",
+          "jp": "とても",
+          "kana": "とても",
+          "romaji": "totemo",
+          "en": [
+            "very"
+          ],
+          "audioText": "とても",
+          "type": "word"
+        },
+        {
+          "id": "g.amari",
+          "jp": "あまり",
+          "kana": "あまり",
+          "romaji": "amari",
+          "en": [
+            "not very (with negative)"
+          ],
+          "audioText": "あまり",
+          "type": "word"
+        },
+        {
+          "id": "gs.takakunaidesu",
+          "jp": "高くないです",
+          "kana": "たかくないです",
+          "romaji": "takaku nai desu",
+          "en": [
+            "it's not expensive",
+            "it isn't expensive"
+          ],
+          "audioText": "高くないです",
+          "type": "sentence",
+          "tokens": [
+            "高く|たかく",
+            "ない",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.amarisamukunaidesu",
+          "jp": "あまり寒くないです",
+          "kana": "あまりさむくないです",
+          "romaji": "amari samuku nai desu",
+          "en": [
+            "it's not very cold"
+          ],
+          "audioText": "あまり寒くないです",
+          "type": "sentence",
+          "tokens": [
+            "あまり",
+            "寒く|さむく",
+            "ない",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.sukijanaidesu",
+          "jp": "好きじゃないです",
+          "kana": "すきじゃないです",
+          "romaji": "suki ja nai desu",
+          "en": [
+            "I don't like it"
+          ],
+          "audioText": "好きじゃないです",
+          "type": "sentence",
+          "tokens": [
+            "好き|すき",
+            "じゃ",
+            "ない",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.konoheyawakireidesu",
+          "jp": "この部屋はきれいです",
+          "kana": "このへやはきれいです",
+          "romaji": "kono heya wa kirei desu",
+          "en": [
+            "this room is clean",
+            "this room is pretty"
+          ],
+          "audioText": "この部屋はきれいです",
+          "type": "sentence",
+          "tokens": [
+            "この",
+            "部屋|へや",
+            "は",
+            "きれい",
+            "です"
+          ]
+        }
+      ]
+    }
+  ]
+}
