@@ -64,3 +64,22 @@ describe('finishSession', () => {
     expect(items).toHaveLength(4);
   });
 });
+
+describe('backup', () => {
+  it('round-trips progress through export/import', async () => {
+    const { exportProgress, importProgress, resetProgress } = await import('@/db/backup');
+    await finishSession(session('u00a-l1', { 'h.a': false, 'h.i': true }), T0);
+    const backup = JSON.parse(JSON.stringify(await exportProgress()));
+    await resetProgress();
+    expect(await db.cards.count()).toBe(0);
+    await importProgress(backup);
+    expect(await db.cards.count()).toBe(2);
+    expect(await db.lessons.get('u00a-l1')).toBeTruthy();
+    expect((await computeStats()).totalXp).toBe(10);
+  });
+
+  it('rejects files that are not Kotoba backups', async () => {
+    const { importProgress } = await import('@/db/backup');
+    await expect(importProgress({ hello: 'world' })).rejects.toThrow(/not a Kotoba backup/);
+  });
+});
