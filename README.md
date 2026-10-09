@@ -128,7 +128,7 @@ Notes:
 ### Workflow
 
 1. **Hand-authored:** add or edit a JSON file in `content/`, then run `npm run content:strokes` (fetches KanjiVG SVGs for any new `strokes`) and `npm run content:validate`.
-2. **Generated:** add a topic to `scripts/topics.mjs` with the `W` (word), `V` (verb), `P` (particle) and `S` (sentence) helpers, then `npm run content:build`. The pipeline downloads and caches its sources in `scripts/.cache/` (~120 MB), and needs `bunzip2` for Tatoeba.
+2. **Generated:** add a topic to `scripts/topics.mjs` with the `W` (word), `V` (verb), `P` (particle) and `S` (sentence) helpers, then `npm run content:build`. The pipeline downloads and caches its sources in `scripts/.cache/` (large downloads; the Tatoeba English file alone is tens of MB), and needs `bunzip2` for Tatoeba.
 3. Run `npm test` — the content suite checks every lesson generates 10–15 valid exercises and every item accepts its own answers.
 
 ## How it works
