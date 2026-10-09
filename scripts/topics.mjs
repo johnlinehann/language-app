@@ -129,6 +129,20 @@ export const TOPICS = [
       { title: 'May I…?', items: [S('写真|しゃしん を 撮って|とって も いい です か', 'may I take a photo;can I take a picture'), S('ここ で 食べて|たべて は いけません', 'you must not eat here;you cannot eat here'), S('入って|はいって も いい です か', 'may I come in;can I come in'), S('はい どうぞ', 'yes, go ahead;yes, please')] },
     ],
   },
+  {
+    unit: 'u11',
+    title: 'Shopping & counters',
+    level: 'N5',
+    description: 'Buy things, count them, and handle prices at the till.',
+    lessons: [
+      { title: 'Going shopping', items: [W('買い物', 'かいもの', 'shopping', '🛍️'), W('お金', 'おかね', 'money', '💴'), W('財布', 'さいふ', 'wallet;purse', '👛'), W('スーパー', 'スーパー', 'supermarket', '🛒'), W('コンビニ', 'コンビニ', 'convenience store', '🏪'), W('服', 'ふく', 'clothes', '👕'), W('靴', 'くつ', 'shoes', '👟')] },
+      { title: 'Things to buy', items: [W('傘', 'かさ', 'umbrella', '☂️'), W('かばん', 'かばん', 'bag', '👜'), W('時計', 'とけい', 'watch;clock', '⌚'), W('めがね', 'めがね', 'glasses;eyeglasses', '👓'), W('帽子', 'ぼうし', 'hat;cap', '🧢'), W('シャツ', 'シャツ', 'shirt', '👔'), W('本', 'ほん', 'book', '📕')] },
+      { title: 'Counting things', items: [W('一つ', 'ひとつ', 'one (thing);one'), W('二つ', 'ふたつ', 'two (things);two'), W('三つ', 'みっつ', 'three (things);three'), W('四つ', 'よっつ', 'four (things);four'), W('五つ', 'いつつ', 'five (things);five'), W('いくつ', 'いくつ', 'how many'), S('りんご を 三つ|みっつ ください', 'three apples, please;three apples please')] },
+      { title: 'Flat & long things', items: [W('一枚', 'いちまい', 'one (flat thing)'), W('二枚', 'にまい', 'two (flat things)'), W('一本', 'いっぽん', 'one (long thing)'), W('二本', 'にほん', 'two (long things)'), W('三本', 'さんぼん', 'three (long things)'), S('切手|きって を 二枚|にまい ください', 'two stamps, please;two stamps please'), S('ペン が 三本|さんぼん あります', 'there are three pens;I have three pens')], note: 'Counters change with the shape of the thing: 枚 for flat things (paper, tickets), 本 for long things (pens, bottles).' },
+      { title: 'At the till', items: [W('いらっしゃいませ', 'いらっしゃいませ', 'welcome (to the shop)', '🙇'), W('レシート', 'レシート', 'receipt', '🧾'), S('これ を ください', "I'll take this;this one, please"), S('もっと 安い|やすい の は あります か', 'do you have a cheaper one'), S('カード で 払えます|はらえます か', 'can I pay by card'), S('袋|ふくろ は いりません', "I don't need a bag")] },
+      { title: 'Bigger prices', items: [W('三百', 'さんびゃく', 'three hundred;300'), W('六百', 'ろっぴゃく', 'six hundred;600'), W('八百', 'はっぴゃく', 'eight hundred;800'), W('三千', 'さんぜん', 'three thousand;3000'), W('万', 'まん', 'ten thousand;10000', '💰'), S('千五百円|せんごひゃくえん です', "it's 1,500 yen;it is fifteen hundred yen"), S('全部|ぜんぶ で 二千円|にせんえん です', "it's 2,000 yen in total;that's two thousand yen altogether")], note: 'Sound changes: 三百 → さんびゃく, 六百 → ろっぴゃく, 八百 → はっぴゃく, 三千 → さんぜん.' },
+    ],
+  },
 ];
 
 export { verb };

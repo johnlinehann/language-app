@@ -1,0 +1,615 @@
+{
+  "unit": "u11",
+  "title": "Shopping & counters",
+  "level": "N5",
+  "description": "Buy things, count them, and handle prices at the till.",
+  "checkpoint": true,
+  "lessons": [
+    {
+      "lesson": "u11-l1",
+      "title": "Going shopping",
+      "items": [
+        {
+          "id": "g.kaimono",
+          "jp": "買い物",
+          "kana": "かいもの",
+          "romaji": "kaimono",
+          "en": [
+            "shopping"
+          ],
+          "audioText": "かいもの",
+          "type": "word",
+          "emoji": "🛍️"
+        },
+        {
+          "id": "g.okane",
+          "jp": "お金",
+          "kana": "おかね",
+          "romaji": "okane",
+          "en": [
+            "money"
+          ],
+          "audioText": "おかね",
+          "type": "word",
+          "emoji": "💴",
+          "strokes": [
+            "金"
+          ]
+        },
+        {
+          "id": "g.saifu",
+          "jp": "財布",
+          "kana": "さいふ",
+          "romaji": "saifu",
+          "en": [
+            "wallet",
+            "purse"
+          ],
+          "audioText": "さいふ",
+          "type": "word",
+          "emoji": "👛",
+          "strokes": [
+            "財",
+            "布"
+          ]
+        },
+        {
+          "id": "g.suupaa",
+          "jp": "スーパー",
+          "kana": "スーパー",
+          "romaji": "suupaa",
+          "en": [
+            "supermarket"
+          ],
+          "audioText": "スーパー",
+          "type": "word",
+          "emoji": "🛒"
+        },
+        {
+          "id": "g.konbini",
+          "jp": "コンビニ",
+          "kana": "コンビニ",
+          "romaji": "konbini",
+          "en": [
+            "convenience store"
+          ],
+          "audioText": "コンビニ",
+          "type": "word",
+          "emoji": "🏪"
+        },
+        {
+          "id": "g.fuku",
+          "jp": "服",
+          "kana": "ふく",
+          "romaji": "fuku",
+          "en": [
+            "clothes"
+          ],
+          "audioText": "ふく",
+          "type": "kanji",
+          "emoji": "👕",
+          "strokes": [
+            "服"
+          ]
+        },
+        {
+          "id": "g.kutsu",
+          "jp": "靴",
+          "kana": "くつ",
+          "romaji": "kutsu",
+          "en": [
+            "shoes"
+          ],
+          "audioText": "くつ",
+          "type": "kanji",
+          "emoji": "👟",
+          "strokes": [
+            "靴"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u11-l2",
+      "title": "Things to buy",
+      "items": [
+        {
+          "id": "g.kasa",
+          "jp": "傘",
+          "kana": "かさ",
+          "romaji": "kasa",
+          "en": [
+            "umbrella"
+          ],
+          "audioText": "かさ",
+          "type": "kanji",
+          "emoji": "☂️",
+          "strokes": [
+            "傘"
+          ]
+        },
+        {
+          "id": "g.kaban",
+          "jp": "かばん",
+          "kana": "かばん",
+          "romaji": "kaban",
+          "en": [
+            "bag"
+          ],
+          "audioText": "かばん",
+          "type": "word",
+          "emoji": "👜"
+        },
+        {
+          "id": "g.tokei",
+          "jp": "時計",
+          "kana": "とけい",
+          "romaji": "tokei",
+          "en": [
+            "watch",
+            "clock"
+          ],
+          "audioText": "とけい",
+          "type": "word",
+          "emoji": "⌚",
+          "strokes": [
+            "計"
+          ]
+        },
+        {
+          "id": "g.megane",
+          "jp": "めがね",
+          "kana": "めがね",
+          "romaji": "megane",
+          "en": [
+            "glasses",
+            "eyeglasses"
+          ],
+          "audioText": "めがね",
+          "type": "word",
+          "emoji": "👓"
+        },
+        {
+          "id": "g.boushi",
+          "jp": "帽子",
+          "kana": "ぼうし",
+          "romaji": "boushi",
+          "en": [
+            "hat",
+            "cap"
+          ],
+          "audioText": "ぼうし",
+          "type": "word",
+          "emoji": "🧢",
+          "strokes": [
+            "帽"
+          ]
+        },
+        {
+          "id": "g.shatsu",
+          "jp": "シャツ",
+          "kana": "シャツ",
+          "romaji": "shatsu",
+          "en": [
+            "shirt"
+          ],
+          "audioText": "シャツ",
+          "type": "word",
+          "emoji": "👔"
+        },
+        {
+          "id": "g.hon",
+          "jp": "本",
+          "kana": "ほん",
+          "romaji": "hon",
+          "en": [
+            "book"
+          ],
+          "audioText": "ほん",
+          "type": "kanji",
+          "emoji": "📕"
+        }
+      ]
+    },
+    {
+      "lesson": "u11-l3",
+      "title": "Counting things",
+      "items": [
+        {
+          "id": "g.hitotsu",
+          "jp": "一つ",
+          "kana": "ひとつ",
+          "romaji": "hitotsu",
+          "en": [
+            "one (thing)",
+            "one"
+          ],
+          "audioText": "ひとつ",
+          "type": "word"
+        },
+        {
+          "id": "g.futatsu",
+          "jp": "二つ",
+          "kana": "ふたつ",
+          "romaji": "futatsu",
+          "en": [
+            "two (things)",
+            "two"
+          ],
+          "audioText": "ふたつ",
+          "type": "word"
+        },
+        {
+          "id": "g.mittsu",
+          "jp": "三つ",
+          "kana": "みっつ",
+          "romaji": "mittsu",
+          "en": [
+            "three (things)",
+            "three"
+          ],
+          "audioText": "みっつ",
+          "type": "word"
+        },
+        {
+          "id": "g.yottsu",
+          "jp": "四つ",
+          "kana": "よっつ",
+          "romaji": "yottsu",
+          "en": [
+            "four (things)",
+            "four"
+          ],
+          "audioText": "よっつ",
+          "type": "word"
+        },
+        {
+          "id": "g.itsutsu",
+          "jp": "五つ",
+          "kana": "いつつ",
+          "romaji": "itsutsu",
+          "en": [
+            "five (things)",
+            "five"
+          ],
+          "audioText": "いつつ",
+          "type": "word"
+        },
+        {
+          "id": "g.ikutsu",
+          "jp": "いくつ",
+          "kana": "いくつ",
+          "romaji": "ikutsu",
+          "en": [
+            "how many"
+          ],
+          "audioText": "いくつ",
+          "type": "word"
+        },
+        {
+          "id": "gs.ringoomittsukudasai",
+          "jp": "りんごを三つください",
+          "kana": "りんごをみっつください",
+          "romaji": "ringo o mittsu kudasai",
+          "en": [
+            "three apples, please",
+            "three apples please"
+          ],
+          "audioText": "りんごを三つください",
+          "type": "sentence",
+          "tokens": [
+            "りんご",
+            "を",
+            "三つ|みっつ",
+            "ください"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u11-l4",
+      "title": "Flat & long things",
+      "items": [
+        {
+          "id": "g.ichimai",
+          "jp": "一枚",
+          "kana": "いちまい",
+          "romaji": "ichimai",
+          "en": [
+            "one (flat thing)"
+          ],
+          "audioText": "いちまい",
+          "type": "word",
+          "strokes": [
+            "枚"
+          ],
+          "note": "Counters change with the shape of the thing: 枚 for flat things (paper, tickets), 本 for long things (pens, bottles)."
+        },
+        {
+          "id": "g.nimai",
+          "jp": "二枚",
+          "kana": "にまい",
+          "romaji": "nimai",
+          "en": [
+            "two (flat things)"
+          ],
+          "audioText": "にまい",
+          "type": "word"
+        },
+        {
+          "id": "g.ippon",
+          "jp": "一本",
+          "kana": "いっぽん",
+          "romaji": "ippon",
+          "en": [
+            "one (long thing)"
+          ],
+          "audioText": "いっぽん",
+          "type": "word"
+        },
+        {
+          "id": "g.nihon",
+          "jp": "二本",
+          "kana": "にほん",
+          "romaji": "nihon",
+          "en": [
+            "two (long things)"
+          ],
+          "audioText": "にほん",
+          "type": "word"
+        },
+        {
+          "id": "g.sanbon",
+          "jp": "三本",
+          "kana": "さんぼん",
+          "romaji": "sanbon",
+          "en": [
+            "three (long things)"
+          ],
+          "audioText": "さんぼん",
+          "type": "word"
+        },
+        {
+          "id": "gs.kitteonimaikudasai",
+          "jp": "切手を二枚ください",
+          "kana": "きってをにまいください",
+          "romaji": "kitte o nimai kudasai",
+          "en": [
+            "two stamps, please",
+            "two stamps please"
+          ],
+          "audioText": "切手を二枚ください",
+          "type": "sentence",
+          "tokens": [
+            "切手|きって",
+            "を",
+            "二枚|にまい",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.pengasanbonarimasu",
+          "jp": "ペンが三本あります",
+          "kana": "ペンがさんぼんあります",
+          "romaji": "pen ga sanbon arimasu",
+          "en": [
+            "there are three pens",
+            "I have three pens"
+          ],
+          "audioText": "ペンが三本あります",
+          "type": "sentence",
+          "tokens": [
+            "ペン",
+            "が",
+            "三本|さんぼん",
+            "あります"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u11-l5",
+      "title": "At the till",
+      "items": [
+        {
+          "id": "g.irasshaimase",
+          "jp": "いらっしゃいませ",
+          "kana": "いらっしゃいませ",
+          "romaji": "irasshaimase",
+          "en": [
+            "welcome (to the shop)"
+          ],
+          "audioText": "いらっしゃいませ",
+          "type": "word",
+          "emoji": "🙇"
+        },
+        {
+          "id": "g.reshiito",
+          "jp": "レシート",
+          "kana": "レシート",
+          "romaji": "reshiito",
+          "en": [
+            "receipt"
+          ],
+          "audioText": "レシート",
+          "type": "word",
+          "emoji": "🧾"
+        },
+        {
+          "id": "gs.koreokudasai",
+          "jp": "これをください",
+          "kana": "これをください",
+          "romaji": "kore o kudasai",
+          "en": [
+            "I'll take this",
+            "this one, please"
+          ],
+          "audioText": "これをください",
+          "type": "sentence",
+          "tokens": [
+            "これ",
+            "を",
+            "ください"
+          ]
+        },
+        {
+          "id": "gs.mottoyasuinowaarimasuka",
+          "jp": "もっと安いのはありますか",
+          "kana": "もっとやすいのはありますか",
+          "romaji": "motto yasui no wa arimasu ka",
+          "en": [
+            "do you have a cheaper one"
+          ],
+          "audioText": "もっと安いのはありますか",
+          "type": "sentence",
+          "tokens": [
+            "もっと",
+            "安い|やすい",
+            "の",
+            "は",
+            "あります",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.kaadodeharaemasuka",
+          "jp": "カードで払えますか",
+          "kana": "カードではらえますか",
+          "romaji": "kaado de haraemasu ka",
+          "en": [
+            "can I pay by card"
+          ],
+          "audioText": "カードで払えますか",
+          "type": "sentence",
+          "tokens": [
+            "カード",
+            "で",
+            "払えます|はらえます",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.fukurowairimasen",
+          "jp": "袋はいりません",
+          "kana": "ふくろはいりません",
+          "romaji": "fukuro wa irimasen",
+          "en": [
+            "I don't need a bag"
+          ],
+          "audioText": "袋はいりません",
+          "type": "sentence",
+          "tokens": [
+            "袋|ふくろ",
+            "は",
+            "いりません"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u11-l6",
+      "title": "Bigger prices",
+      "items": [
+        {
+          "id": "g.sanbyaku",
+          "jp": "三百",
+          "kana": "さんびゃく",
+          "romaji": "sanbyaku",
+          "en": [
+            "three hundred",
+            "300"
+          ],
+          "audioText": "さんびゃく",
+          "type": "word",
+          "note": "Sound changes: 三百 → さんびゃく, 六百 → ろっぴゃく, 八百 → はっぴゃく, 三千 → さんぜん."
+        },
+        {
+          "id": "g.roppyaku",
+          "jp": "六百",
+          "kana": "ろっぴゃく",
+          "romaji": "roppyaku",
+          "en": [
+            "six hundred",
+            "600"
+          ],
+          "audioText": "ろっぴゃく",
+          "type": "word"
+        },
+        {
+          "id": "g.happyaku",
+          "jp": "八百",
+          "kana": "はっぴゃく",
+          "romaji": "happyaku",
+          "en": [
+            "eight hundred",
+            "800"
+          ],
+          "audioText": "はっぴゃく",
+          "type": "word"
+        },
+        {
+          "id": "g.sanzen",
+          "jp": "三千",
+          "kana": "さんぜん",
+          "romaji": "sanzen",
+          "en": [
+            "three thousand",
+            "3000"
+          ],
+          "audioText": "さんぜん",
+          "type": "word"
+        },
+        {
+          "id": "g.man",
+          "jp": "万",
+          "kana": "まん",
+          "romaji": "man",
+          "en": [
+            "ten thousand",
+            "10000"
+          ],
+          "audioText": "まん",
+          "type": "kanji",
+          "emoji": "💰",
+          "strokes": [
+            "万"
+          ]
+        },
+        {
+          "id": "gs.sengohyakuendesu",
+          "jp": "千五百円です",
+          "kana": "せんごひゃくえんです",
+          "romaji": "sengohyakuen desu",
+          "en": [
+            "it's 1,500 yen",
+            "it is fifteen hundred yen"
+          ],
+          "audioText": "千五百円です",
+          "type": "sentence",
+          "tokens": [
+            "千五百円|せんごひゃくえん",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.zenbudenisenendesu",
+          "jp": "全部で二千円です",
+          "kana": "ぜんぶでにせんえんです",
+          "romaji": "zenbu de nisen'en desu",
+          "en": [
+            "it's 2,000 yen in total",
+            "that's two thousand yen altogether"
+          ],
+          "audioText": "全部で二千円です",
+          "type": "sentence",
+          "tokens": [
+            "全部|ぜんぶ",
+            "で",
+            "二千円|にせんえん",
+            "です"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,7 @@ export default function Intro({ ex, finish }: ExProps<IntroEx>) {
         {kana ? 'New character' : item.type === 'sentence' ? 'New sentence' : 'New word'}
       </span>
       {item.emoji && <span className="text-6xl" aria-hidden>{item.emoji}</span>}
-      <ItemJp item={item} className={`font-bold ${item.jp.length <= 2 ? 'text-7xl' : item.jp.length <= 6 ? 'text-5xl' : 'text-3xl'}`} />
+      <ItemJp item={item} showRuby={false} className={`font-bold ${item.jp.length <= 2 ? 'text-7xl' : item.jp.length <= 6 ? 'text-5xl' : 'text-3xl'}`} />
       <p className="text-lg">
         {!kana && item.kana !== item.jp && <span lang="ja" className="mr-2">{item.kana}</span>}
         <span className="font-bold text-ai-500 dark:text-ai-400">{item.romaji}</span>

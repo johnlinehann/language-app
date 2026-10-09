@@ -24,8 +24,8 @@ export function Furigana({ segments, show, className = '' }: { segments: Segment
   );
 }
 
-export function ItemJp({ item, className }: { item: Item; className?: string }) {
-  return <Furigana segments={itemFurigana(item)} className={className} />;
+export function ItemJp({ item, className, showRuby }: { item: Item; className?: string; showRuby?: boolean }) {
+  return <Furigana segments={itemFurigana(item)} className={className} show={showRuby} />;
 }
 
 export function TokenJp({ token, className }: { token: string; className?: string }) {

@@ -4,7 +4,7 @@ A free, ad-free, offline-first Japanese course that runs in the browser and inst
 
 - **No accounts, no backend, no ads, no tracking.** Progress lives in IndexedDB on your device.
 - **Lesson flow:** winding course path → lessons of 10–15 exercises → checkpoint per unit.
-- **13 units, 61 lessons, 373 items:** hiragana, katakana, greetings, numbers & time, food, family, ます verbs, particles, adjectives, travel, て form (≈ JLPT N5 → N4).
+- **14 units, 74 lessons, 460 items:** hiragana, katakana, greetings, numbers & time, food, family, ます verbs, particles, adjectives, travel, て form, shopping & counters (≈ JLPT N5 → N4).
 
 ## Features
 
