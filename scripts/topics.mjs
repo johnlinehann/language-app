@@ -98,6 +98,7 @@ export const TOPICS = [
       { title: 'な-adjectives', items: [W('好き', 'すき', 'like;liked', '❤️'), W('嫌い', 'きらい', 'dislike;hate', '👎'), W('静か', 'しずか', 'quiet', '🤫'), W('元気', 'げんき', 'healthy;energetic;well', '💪'), W('有名', 'ゆうめい', 'famous', '⭐'), W('便利', 'べんり', 'convenient', '🔧'), W('きれい', 'きれい', 'pretty;clean;beautiful', '🌸')] },
       { title: 'Describing', items: [S('この 本|ほん は 高い|たかい です', 'this book is expensive'), S('今日|きょう は 寒い|さむい です', "it's cold today;today is cold"), S('日本語|にほんご は 難しい|むずかしい です', 'Japanese is difficult'), S('東京|とうきょう は 大きい|おおきい 町|まち です', 'Tokyo is a big city;Tokyo is a big town'), S('この 町|まち は 静か|しずか です', 'this town is quiet'), S('お元気|おげんき です か', 'how are you;are you well'), S('とても 楽しい|たのしい です', "it's very fun;it is very fun")] },
       { title: 'Not very', items: [W('とても', 'とても', 'very'), W('あまり', 'あまり', 'not very (with negative)'), S('高く|たかく ない です', "it's not expensive;it isn't expensive"), S('あまり 寒く|さむく ない です', "it's not very cold"), S('好き|すき じゃ ない です', "I don't like it"), S('この 部屋|へや は きれい です', 'this room is clean;this room is pretty')] },
+      { title: 'It was fun', items: [W('かった', 'かった', 'was (い-adjective past)'), W('でした', 'でした', 'was (polite past)'), S('昨日|きのう は 寒かった|さむかった です', 'it was cold yesterday;yesterday was cold'), S('映画|えいが は 楽しかった|たのしかった です', 'the movie was fun'), S('とても 静か|しずか でした', 'it was very quiet'), S('高く|たかく なかった です', "it wasn't expensive;it was not expensive")] },
     ],
   },
   {
@@ -111,6 +112,7 @@ export const TOPICS = [
       { title: 'Directions', items: [W('右', 'みぎ', 'right', '👉'), W('左', 'ひだり', 'left', '👈'), W('まっすぐ', 'まっすぐ', 'straight ahead;straight', '⬆️'), W('ここ', 'ここ', 'here', '📍'), W('そこ', 'そこ', 'there'), W('あそこ', 'あそこ', 'over there'), W('どこ', 'どこ', 'where', '❓')] },
       { title: 'Where is…?', items: [S('駅|えき は どこ です か', 'where is the station'), S('トイレ は どこ です か', 'where is the toilet;where is the restroom'), S('まっすぐ 行って|いって ください', 'please go straight;go straight please'), S('右|みぎ に あります', "it's on the right;it is on the right"), S('切符|きっぷ を 一枚|いちまい ください', 'one ticket, please;one ticket please'), S('東京|とうきょう まで いくら です か', 'how much is it to Tokyo')] },
       { title: 'At the hotel', items: [W('予約', 'よやく', 'reservation;booking', '📅'), W('部屋', 'へや', 'room', '🛏️'), W('鍵', 'かぎ', 'key', '🔑'), W('荷物', 'にもつ', 'luggage;baggage', '🧳'), S('予約|よやく が あります', 'I have a reservation'), S('チェックイン を お願い|おねがい します', 'check-in, please;I would like to check in')] },
+      { title: 'Taking the train', items: [W('乗ります', 'のります', 'ride;get on;take (a vehicle)', '🚃'), W('降ります', 'おります', 'get off', '🚏'), W('次', 'つぎ', 'next', '⏭️'), W('乗り換え', 'のりかえ', 'transfer;change (trains)', '🔀'), S('次|つぎ の 電車|でんしゃ は 何時|なんじ です か', 'what time is the next train'), S('東京|とうきょう で 降ります|おります', 'I get off at Tokyo'), S('バス に 乗ります|のります', 'I take the bus;I get on the bus')] },
     ],
   },
   {
@@ -121,6 +123,7 @@ export const TOPICS = [
     lessons: [
       { title: 'て form I', teVerbs: ['食べる', '飲む', '行く', '来る', '見る', '書く', '読む'], note: 'る-verbs: drop る, add て. Most う-verbs change: く→いて, む→んで, う/つ/る→って.' },
       { title: 'て form II', teVerbs: ['話す', '買う', '待つ', '遊ぶ', 'する', '起きる', '聞く'] },
+      { title: 'て form III', teVerbs: ['入る', '出る', '使う', '作る', '歩く', '休む'], extra: [S('ご飯|ごはん を 食べて|たべて から 寝ます|ねます', 'I sleep after eating;after eating I go to bed')] },
       { title: 'Please…', items: [S('ちょっと 待って|まって ください', 'please wait a moment;wait a moment please'), S('ゆっくり 話して|はなして ください', 'please speak slowly'), S('もう 一度|いちど 言って|いって ください', 'please say it again'), S('ここ に 書いて|かいて ください', 'please write here;please write it here'), S('見て|みて ください', 'please look')] },
       { title: "What's happening", items: [S('今|いま 食べて|たべて います', "I'm eating now;I am eating now"), S('雨|あめ が 降って|ふって います', "it's raining;it is raining"), S('東京|とうきょう に 住んで|すんで います', 'I live in Tokyo'), S('日本語|にほんご を 勉強して|べんきょうして います', "I'm studying Japanese;I am studying Japanese"), S('何|なに を して います か', 'what are you doing')] },
       { title: 'May I…?', items: [S('写真|しゃしん を 撮って|とって も いい です か', 'may I take a photo;can I take a picture'), S('ここ で 食べて|たべて は いけません', 'you must not eat here;you cannot eat here'), S('入って|はいって も いい です か', 'may I come in;can I come in'), S('はい どうぞ', 'yes, go ahead;yes, please')] },

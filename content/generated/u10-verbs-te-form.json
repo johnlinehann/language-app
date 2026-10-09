@@ -208,6 +208,116 @@
     },
     {
       "lesson": "u10-l3",
+      "title": "て form III",
+      "items": [
+        {
+          "id": "g.haitte",
+          "jp": "入って",
+          "kana": "はいって",
+          "romaji": "haitte",
+          "en": [
+            "enter (te-form)",
+            "go in (te-form)",
+            "come in (te-form)"
+          ],
+          "audioText": "はいって",
+          "type": "word",
+          "emoji": "🚪",
+          "note": "Dictionary form: 入る（はいる）"
+        },
+        {
+          "id": "g.dete",
+          "jp": "出て",
+          "kana": "でて",
+          "romaji": "dete",
+          "en": [
+            "leave (te-form)",
+            "go out (te-form)",
+            "exit (te-form)"
+          ],
+          "audioText": "でて",
+          "type": "word",
+          "emoji": "🏃",
+          "note": "Dictionary form: 出る（でる）"
+        },
+        {
+          "id": "g.tsukatte",
+          "jp": "使って",
+          "kana": "つかって",
+          "romaji": "tsukatte",
+          "en": [
+            "use (te-form)"
+          ],
+          "audioText": "つかって",
+          "type": "word",
+          "emoji": "🛠️",
+          "note": "Dictionary form: 使う（つかう）"
+        },
+        {
+          "id": "g.tsukutte",
+          "jp": "作って",
+          "kana": "つくって",
+          "romaji": "tsukutte",
+          "en": [
+            "make (te-form)",
+            "cook (te-form)"
+          ],
+          "audioText": "つくって",
+          "type": "word",
+          "emoji": "🍳",
+          "note": "Dictionary form: 作る（つくる）"
+        },
+        {
+          "id": "g.aruite",
+          "jp": "歩いて",
+          "kana": "あるいて",
+          "romaji": "aruite",
+          "en": [
+            "walk (te-form)"
+          ],
+          "audioText": "あるいて",
+          "type": "word",
+          "emoji": "🚶",
+          "note": "Dictionary form: 歩く（あるく）"
+        },
+        {
+          "id": "g.yasunde",
+          "jp": "休んで",
+          "kana": "やすんで",
+          "romaji": "yasunde",
+          "en": [
+            "rest (te-form)",
+            "take a break (te-form)",
+            "take a day off (te-form)"
+          ],
+          "audioText": "やすんで",
+          "type": "word",
+          "emoji": "🛋️",
+          "note": "Dictionary form: 休む（やすむ）"
+        },
+        {
+          "id": "gs.gohanotabetekaranemasu",
+          "jp": "ご飯を食べてから寝ます",
+          "kana": "ごはんをたべてからねます",
+          "romaji": "gohan o tabete kara nemasu",
+          "en": [
+            "I sleep after eating",
+            "after eating I go to bed"
+          ],
+          "audioText": "ご飯を食べてから寝ます",
+          "type": "sentence",
+          "tokens": [
+            "ご飯|ごはん",
+            "を",
+            "食べて|たべて",
+            "から",
+            "寝ます|ねます"
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": "u10-l4",
       "title": "Please…",
       "items": [
         {
@@ -296,7 +406,7 @@
       ]
     },
     {
-      "lesson": "u10-l4",
+      "lesson": "u10-l5",
       "title": "What's happening",
       "items": [
         {
@@ -390,7 +500,7 @@
       ]
     },
     {
-      "lesson": "u10-l5",
+      "lesson": "u10-l6",
       "title": "May I…?",
       "items": [
         {

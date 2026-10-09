@@ -539,6 +539,128 @@
           ]
         }
       ]
+    },
+    {
+      "lesson": "u09-l6",
+      "title": "Taking the train",
+      "items": [
+        {
+          "id": "g.norimasu",
+          "jp": "乗ります",
+          "kana": "のります",
+          "romaji": "norimasu",
+          "en": [
+            "ride",
+            "get on",
+            "take (a vehicle)"
+          ],
+          "audioText": "のります",
+          "type": "word",
+          "emoji": "🚃",
+          "strokes": [
+            "乗"
+          ]
+        },
+        {
+          "id": "g.orimasu",
+          "jp": "降ります",
+          "kana": "おります",
+          "romaji": "orimasu",
+          "en": [
+            "get off"
+          ],
+          "audioText": "おります",
+          "type": "word",
+          "emoji": "🚏",
+          "strokes": [
+            "降"
+          ]
+        },
+        {
+          "id": "g.tsugi",
+          "jp": "次",
+          "kana": "つぎ",
+          "romaji": "tsugi",
+          "en": [
+            "next"
+          ],
+          "audioText": "つぎ",
+          "type": "kanji",
+          "emoji": "⏭️",
+          "strokes": [
+            "次"
+          ]
+        },
+        {
+          "id": "g.norikae",
+          "jp": "乗り換え",
+          "kana": "のりかえ",
+          "romaji": "norikae",
+          "en": [
+            "transfer",
+            "change (trains)"
+          ],
+          "audioText": "のりかえ",
+          "type": "word",
+          "emoji": "🔀",
+          "strokes": [
+            "換"
+          ]
+        },
+        {
+          "id": "gs.tsuginodenshawananjidesuka",
+          "jp": "次の電車は何時ですか",
+          "kana": "つぎのでんしゃはなんじですか",
+          "romaji": "tsugi no densha wa nanji desu ka",
+          "en": [
+            "what time is the next train"
+          ],
+          "audioText": "次の電車は何時ですか",
+          "type": "sentence",
+          "tokens": [
+            "次|つぎ",
+            "の",
+            "電車|でんしゃ",
+            "は",
+            "何時|なんじ",
+            "です",
+            "か"
+          ]
+        },
+        {
+          "id": "gs.toukyoudeorimasu",
+          "jp": "東京で降ります",
+          "kana": "とうきょうでおります",
+          "romaji": "toukyou de orimasu",
+          "en": [
+            "I get off at Tokyo"
+          ],
+          "audioText": "東京で降ります",
+          "type": "sentence",
+          "tokens": [
+            "東京|とうきょう",
+            "で",
+            "降ります|おります"
+          ]
+        },
+        {
+          "id": "gs.basuninorimasu",
+          "jp": "バスに乗ります",
+          "kana": "バスにのります",
+          "romaji": "basu ni norimasu",
+          "en": [
+            "I take the bus",
+            "I get on the bus"
+          ],
+          "audioText": "バスに乗ります",
+          "type": "sentence",
+          "tokens": [
+            "バス",
+            "に",
+            "乗ります|のります"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -559,6 +559,102 @@
           ]
         }
       ]
+    },
+    {
+      "lesson": "u08-l6",
+      "title": "It was fun",
+      "items": [
+        {
+          "id": "g.katta",
+          "jp": "かった",
+          "kana": "かった",
+          "romaji": "katta",
+          "en": [
+            "was (い-adjective past)"
+          ],
+          "audioText": "かった",
+          "type": "word"
+        },
+        {
+          "id": "g.deshita",
+          "jp": "でした",
+          "kana": "でした",
+          "romaji": "deshita",
+          "en": [
+            "was (polite past)"
+          ],
+          "audioText": "でした",
+          "type": "word"
+        },
+        {
+          "id": "gs.kinouwasamukattadesu",
+          "jp": "昨日は寒かったです",
+          "kana": "きのうはさむかったです",
+          "romaji": "kinou wa samukatta desu",
+          "en": [
+            "it was cold yesterday",
+            "yesterday was cold"
+          ],
+          "audioText": "昨日は寒かったです",
+          "type": "sentence",
+          "tokens": [
+            "昨日|きのう",
+            "は",
+            "寒かった|さむかった",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.eigawatanoshikattadesu",
+          "jp": "映画は楽しかったです",
+          "kana": "えいがはたのしかったです",
+          "romaji": "eiga wa tanoshikatta desu",
+          "en": [
+            "the movie was fun"
+          ],
+          "audioText": "映画は楽しかったです",
+          "type": "sentence",
+          "tokens": [
+            "映画|えいが",
+            "は",
+            "楽しかった|たのしかった",
+            "です"
+          ]
+        },
+        {
+          "id": "gs.totemoshizukadeshita",
+          "jp": "とても静かでした",
+          "kana": "とてもしずかでした",
+          "romaji": "totemo shizuka deshita",
+          "en": [
+            "it was very quiet"
+          ],
+          "audioText": "とても静かでした",
+          "type": "sentence",
+          "tokens": [
+            "とても",
+            "静か|しずか",
+            "でした"
+          ]
+        },
+        {
+          "id": "gs.takakunakattadesu",
+          "jp": "高くなかったです",
+          "kana": "たかくなかったです",
+          "romaji": "takaku nakatta desu",
+          "en": [
+            "it wasn't expensive",
+            "it was not expensive"
+          ],
+          "audioText": "高くなかったです",
+          "type": "sentence",
+          "tokens": [
+            "高く|たかく",
+            "なかった",
+            "です"
+          ]
+        }
+      ]
     }
   ]
 }

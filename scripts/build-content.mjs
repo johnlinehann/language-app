@@ -281,6 +281,7 @@ export function buildUnits(topics, b) {
       if (l.verbs) items = l.verbs.map((jp) => b.verbForm(verb(jp), 'masu'));
       else if (l.teVerbs) items = l.teVerbs.map((jp) => b.verbForm(verb(jp), 'te'));
       else items = l.items.map(b.build);
+      if (l.extra) items = [...items, ...l.extra.map(b.build)];
       if (l.note && items[0]) items[0].note = l.note;
       return { lesson: `${t.unit}-l${i + 1}`, title: l.title, items };
     }),
