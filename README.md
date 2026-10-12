@@ -35,6 +35,7 @@ npm run preview      # serve dist/ (service worker active) on http://localhost:4
 
 | Script | Purpose |
 |---|---|
+| `npm run build:single` | One self-contained `dist-single/index.html` (JS, CSS, icon and stroke data inlined) |
 | `npm run content:validate` | Check every content file against the schema |
 | `npm run content:build` | Regenerate `content/generated/` from seeds + JMdict/KANJIDIC2/Tatoeba (add `-- --offline` to skip downloads) |
 | `npm run content:strokes` | Download missing KanjiVG SVGs for every `strokes` character |
@@ -51,6 +52,8 @@ The build output is a static site in `dist/`. Any static host works as long as u
 - Drag and drop: run `npm run build`, then drop `dist/` on <https://app.netlify.com/drop>.
 
 **Elsewhere:** Cloudflare Pages / Vercel / GitHub Pages work too — set the SPA fallback to `/index.html` and serve `sw.js` with `Cache-Control: no-cache`. The app expects to be served from the domain root.
+
+**Single HTML file (optional):** `npm run build:single` writes `dist-single/index.html` (~0.6 MB). It runs from `file://` or any file host, with hash routing (`index.html#/…`). It has **no install prompt and no offline caching** (service workers need http/https), and where progress is saved depends on the browser, so keep using Export in Settings. The PWA above is the recommended way to use Kotoba on a phone.
 
 **Install on a phone:** open the site, then *Add to Home Screen* (iOS Safari share menu, or Chrome's install prompt on Android). After the first load it works with no connection.
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import inlineStrokes from 'virtual:strokes';
 
 const cache = new Map<string, Promise<string[]>>();
 const file = (ch: string) => `/kanjivg/${ch.codePointAt(0)!.toString(16).padStart(5, '0')}.svg`;
@@ -9,6 +10,8 @@ export function parseStrokes(svg: string): string[] {
 }
 
 function loadStrokes(ch: string): Promise<string[]> {
+  const inlined = inlineStrokes[ch.codePointAt(0)!.toString(16).padStart(5, '0')];
+  if (inlined) return Promise.resolve(inlined);
   if (!cache.has(ch))
     cache.set(
       ch,
